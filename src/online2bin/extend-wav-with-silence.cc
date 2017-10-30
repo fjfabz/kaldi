@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "feat/wave-reader.h"
+#include "util/common-utils.h"
 
 namespace kaldi{
 void FindQuietestSegment(const Vector<BaseFloat> &wav_in,

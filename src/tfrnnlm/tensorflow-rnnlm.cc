@@ -18,12 +18,12 @@
 // limitations under the License.
 
 
-#include <utility>
 #include <fstream>
+#include <utility>
 
-#include "tensorflow/core/public/session.h"
 #include "tensorflow/core/platform/env.h"
 #include "tensorflow/core/protobuf/meta_graph.pb.h"
+#include "tensorflow/core/public/session.h"
 
 #include "tfrnnlm/tensorflow-rnnlm.h"
 #include "util/stl-utils.h"

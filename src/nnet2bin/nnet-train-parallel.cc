@@ -18,10 +18,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/transition-model.h"
-#include "nnet2/nnet-update-parallel.h"
 #include "nnet2/am-nnet.h"
+#include "nnet2/nnet-update-parallel.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

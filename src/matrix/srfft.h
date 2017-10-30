@@ -27,8 +27,8 @@
 #ifndef KALDI_MATRIX_SRFFT_H_
 #define KALDI_MATRIX_SRFFT_H_
 
-#include "matrix/kaldi-vector.h"
 #include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
 
 namespace kaldi {
 

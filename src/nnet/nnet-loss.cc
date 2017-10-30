@@ -17,14 +17,14 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <sstream>
-#include <iterator>
 #include <algorithm>
+#include <iterator>
+#include <sstream>
 
-#include "nnet/nnet-loss.h"
-#include "nnet/nnet-utils.h"
 #include "cudamatrix/cu-math.h"
 #include "hmm/posterior.h"
+#include "nnet/nnet-loss.h"
+#include "nnet/nnet-utils.h"
 
 namespace kaldi {
 namespace nnet1 {

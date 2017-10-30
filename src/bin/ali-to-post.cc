@@ -20,11 +20,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
 #include "hmm/hmm-utils.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 /** @brief Convert alignments to viterbi style posteriors. The aligned
     symbol gets a weight of 1.0 */

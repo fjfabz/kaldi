@@ -18,13 +18,13 @@
 // limitations under the License.
 
 #include "feat/wave-reader.h"
-#include "online2/online-nnet2-decoding-threaded.h"
-#include "online2/online-nnet2-feature-pipeline.h"
-#include "online2/onlinebin-util.h"
-#include "online2/online-timing.h"
-#include "online2/online-endpoint.h"
 #include "fstext/fstext-lib.h"
 #include "lat/lattice-functions.h"
+#include "online2/online-endpoint.h"
+#include "online2/online-nnet2-decoding-threaded.h"
+#include "online2/online-nnet2-feature-pipeline.h"
+#include "online2/online-timing.h"
+#include "online2/onlinebin-util.h"
 #include "util/kaldi-thread.h"
 
 namespace kaldi {

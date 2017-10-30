@@ -22,8 +22,8 @@
 #define KALDI_FSTEXT_DETERMINIZE_LATTICE_INL_H_
 // Do not include this file directly.  It is included by determinize-lattice.h
 
-#include <vector>
 #include <climits>
+#include <vector>
 
 namespace fst {
 

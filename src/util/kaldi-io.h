@@ -24,11 +24,11 @@
 # include <fcntl.h>
 # include <io.h>
 #endif
+#include "base/kaldi-common.h"
+#include "matrix/kaldi-matrix.h"
 #include <cctype>  // For isspace.
 #include <limits>
 #include <string>
-#include "base/kaldi-common.h"
-#include "matrix/kaldi-matrix.h"
 
 
 namespace kaldi {

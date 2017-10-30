@@ -21,10 +21,10 @@
 #ifndef KALDI_NNET2_NNET_EXAMPLE_H_
 #define KALDI_NNET2_NNET_EXAMPLE_H_
 
-#include "nnet2/nnet-nnet.h"
-#include "util/table-types.h"
 #include "lat/kaldi-lattice.h"
+#include "nnet2/nnet-nnet.h"
 #include "util/kaldi-semaphore.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace nnet2 {

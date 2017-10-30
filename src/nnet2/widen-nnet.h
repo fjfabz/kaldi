@@ -20,9 +20,9 @@
 #ifndef KALDI_NNET2_WIDEN_NNET_H_
 #define KALDI_NNET2_WIDEN_NNET_H_
 
-#include "nnet2/nnet-update.h"
-#include "nnet2/nnet-compute.h"
 #include "itf/options-itf.h"
+#include "nnet2/nnet-compute.h"
+#include "nnet2/nnet-update.h"
 
 namespace kaldi {
 namespace nnet2 {

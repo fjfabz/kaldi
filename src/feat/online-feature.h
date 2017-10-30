@@ -23,18 +23,18 @@
 #ifndef KALDI_FEAT_ONLINE_FEATURE_H_
 #define KALDI_FEAT_ONLINE_FEATURE_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
+#include "feat/feature-fbank.h"
 #include "feat/feature-functions.h"
 #include "feat/feature-mfcc.h"
 #include "feat/feature-plp.h"
-#include "feat/feature-fbank.h"
 #include "itf/online-feature-itf.h"
+#include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 /// @addtogroup  onlinefeat OnlineFeatureExtraction

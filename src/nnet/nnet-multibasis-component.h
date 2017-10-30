@@ -22,11 +22,11 @@
 #define KALDI_NNET_NNET_MULTIBASIS_COMPONENT_H_
 
 #include <sstream>
-#include <vector>
 #include <string>
+#include <vector>
 
-#include "nnet/nnet-component.h"
 #include "nnet/nnet-affine-transform.h"
+#include "nnet/nnet-component.h"
 
 namespace kaldi {
 namespace nnet1 {

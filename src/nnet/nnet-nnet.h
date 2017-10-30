@@ -20,16 +20,16 @@
 #ifndef KALDI_NNET_NNET_NNET_H_
 #define KALDI_NNET_NNET_NNET_H_
 
-#include <string>
-#include <vector>
 #include <iostream>
 #include <sstream>
+#include <string>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
 #include "matrix/matrix-lib.h"
-#include "nnet/nnet-trnopts.h"
 #include "nnet/nnet-component.h"
+#include "nnet/nnet-trnopts.h"
+#include "util/kaldi-io.h"
 
 namespace kaldi {
 namespace nnet1 {

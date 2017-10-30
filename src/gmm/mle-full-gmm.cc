@@ -21,8 +21,8 @@
 
 #include <string>
 
-#include "gmm/full-gmm.h"
 #include "gmm/diag-gmm.h"
+#include "gmm/full-gmm.h"
 #include "gmm/mle-full-gmm.h"
 
 namespace kaldi {

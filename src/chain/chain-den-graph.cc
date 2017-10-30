@@ -19,8 +19,8 @@
 
 
 #include "chain/chain-den-graph.h"
-#include "hmm/hmm-utils.h"
 #include "fstext/push-special.h"
+#include "hmm/hmm-utils.h"
 
 namespace kaldi {
 namespace chain {

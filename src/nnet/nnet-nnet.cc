@@ -18,11 +18,11 @@
 // limitations under the License.
 
 #include "nnet/nnet-nnet.h"
-#include "nnet/nnet-component.h"
-#include "nnet/nnet-parallel-component.h"
-#include "nnet/nnet-multibasis-component.h"
 #include "nnet/nnet-activation.h"
 #include "nnet/nnet-affine-transform.h"
+#include "nnet/nnet-component.h"
+#include "nnet/nnet-multibasis-component.h"
+#include "nnet/nnet-parallel-component.h"
 #include "nnet/nnet-various.h"
 
 namespace kaldi {

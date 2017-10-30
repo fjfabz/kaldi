@@ -16,14 +16,14 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "hmm/transition-model.h"
+#include "fst/fstlib.h"
+#include "fstext/context-fst.h"
+#include "fstext/fstext-utils.h"
+#include "fstext/table-matcher.h"
 #include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
 #include "tree/context-dep.h"
 #include "util/common-utils.h"
-#include "fst/fstlib.h"
-#include "fstext/table-matcher.h"
-#include "fstext/fstext-utils.h"
-#include "fstext/context-fst.h"
 
 
 int main(int argc, char *argv[]) {

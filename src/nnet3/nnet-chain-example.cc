@@ -17,9 +17,9 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <cmath>
 #include "nnet3/nnet-chain-example.h"
 #include "nnet3/nnet-example-utils.h"
+#include <cmath>
 
 namespace kaldi {
 namespace nnet3 {

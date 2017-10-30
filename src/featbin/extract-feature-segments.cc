@@ -20,9 +20,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "feat/feature-mfcc.h"
 #include "matrix/kaldi-matrix.h"
+#include "util/common-utils.h"
 
 /** @brief This is a program for extracting segments from feature files/archives
  - usage : 

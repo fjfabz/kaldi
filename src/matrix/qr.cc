@@ -19,11 +19,11 @@
 
 #include <limits>
 
-#include "matrix/sp-matrix.h"
-#include "matrix/kaldi-vector.h"
-#include "matrix/kaldi-matrix.h"
-#include "matrix/matrix-functions.h"
 #include "matrix/cblas-wrappers.h"
+#include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
+#include "matrix/matrix-functions.h"
+#include "matrix/sp-matrix.h"
 
 // This file contains an implementation of the Symmetric QR Algorithm
 // for the symmetric eigenvalue problem.  See Golub and Van Loan,

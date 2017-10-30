@@ -20,14 +20,14 @@
 #ifndef KALDI_TFRNNLM_TENSORFLOW_RNNLM_H_
 #define KALDI_TFRNNLM_TENSORFLOW_RNNLM_H_
 
-#include <string>
-#include <vector>
-#include <unordered_map>
-#include "util/stl-utils.h"
 #include "base/kaldi-common.h"
 #include "fstext/deterministic-fst.h"
-#include "util/common-utils.h"
 #include "tensorflow/core/public/session.h"
+#include "util/common-utils.h"
+#include "util/stl-utils.h"
+#include <string>
+#include <unordered_map>
+#include <vector>
 
 using tensorflow::Session;
 using tensorflow::Tensor;

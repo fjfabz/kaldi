@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "nnet3/nnet-discriminative-training.h"
 #include "nnet3/am-nnet-simple.h"
+#include "nnet3/nnet-discriminative-training.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

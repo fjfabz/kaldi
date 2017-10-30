@@ -20,12 +20,12 @@
 
 #ifndef KALDI_UTIL_CONST_INTEGER_SET_H_
 #define KALDI_UTIL_CONST_INTEGER_SET_H_
-#include <vector>
-#include <set>
-#include <algorithm>
-#include <limits>
-#include <cassert>
 #include "util/stl-utils.h"
+#include <algorithm>
+#include <cassert>
+#include <limits>
+#include <set>
+#include <vector>
 
   /* ConstIntegerSet is a way to efficiently test whether something is in a
      supplied set of integers.  It can be initialized from a vector or set, but

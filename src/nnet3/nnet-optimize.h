@@ -21,8 +21,8 @@
 #ifndef KALDI_NNET3_NNET_OPTIMIZE_H_
 #define KALDI_NNET3_NNET_OPTIMIZE_H_
 
-#include "nnet3/nnet-compile.h"
 #include "nnet3/nnet-analyze.h"
+#include "nnet3/nnet-compile.h"
 
 #include <list>
 

@@ -17,12 +17,12 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <typeinfo>
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/transition-model.h"
 #include "nnet2/am-nnet.h"
 #include "tree/context-dep.h"
+#include "util/common-utils.h"
+#include <typeinfo>
 
 int main(int argc, char *argv[]) {
   try {

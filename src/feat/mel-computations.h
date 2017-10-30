@@ -21,16 +21,16 @@
 #ifndef KALDI_FEAT_MEL_COMPUTATIONS_H_
 #define KALDI_FEAT_MEL_COMPUTATIONS_H_
 
+#include <complex>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <complex>
 #include <utility>
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

@@ -73,8 +73,8 @@
       // May be in /usr/[local]/include if installed; else this uses the one
       // from the tools/CLAPACK_include directory.
       #include <cblas.h>
-      #include <f2c.h>
       #include <clapack.h>  
+      #include <f2c.h>
 
       // get rid of macros from f2c.h -- these are dangerous.
       #undef abs

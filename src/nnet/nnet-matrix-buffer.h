@@ -21,14 +21,14 @@
 #ifndef KALDI_NNET_NNET_MATRIX_BUFFER_H_
 #define KALDI_NNET_NNET_MATRIX_BUFFER_H_
 
-#include <utility>
-#include <vector>
 #include <list>
 #include <string>
+#include <utility>
+#include <vector>
 
 #include "itf/options-itf.h"
-#include "util/common-utils.h"
 #include "matrix/kaldi-matrix.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

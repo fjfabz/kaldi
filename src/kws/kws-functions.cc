@@ -19,10 +19,10 @@
 
 #include <algorithm>
 
-#include "lat/lattice-functions.h"
-#include "kws/kws-functions.h"
 #include "fstext/determinize-star.h"
 #include "fstext/epsilon-property.h"
+#include "kws/kws-functions.h"
+#include "lat/lattice-functions.h"
 
 // note: this .cc file does not include everything declared in kws-functions.h;
 // the remainder are defined in kws-functions2.cc (for compilation speed and

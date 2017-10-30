@@ -19,10 +19,10 @@
 
 #ifndef KALDI_UTIL_EDIT_DISTANCE_INL_H_
 #define KALDI_UTIL_EDIT_DISTANCE_INL_H_
+#include "util/stl-utils.h"
 #include <algorithm>
 #include <utility>
 #include <vector>
-#include "util/stl-utils.h"
 
 namespace kaldi {
 

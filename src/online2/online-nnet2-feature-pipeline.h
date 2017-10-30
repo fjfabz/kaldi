@@ -21,16 +21,16 @@
 #ifndef KALDI_ONLINE2_ONLINE_NNET2_FEATURE_PIPELINE_H_
 #define KALDI_ONLINE2_ONLINE_NNET2_FEATURE_PIPELINE_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
 #include "feat/online-feature.h"
 #include "feat/pitch-functions.h"
+#include "matrix/matrix-lib.h"
 #include "online2/online-ivector-feature.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 /// @addtogroup  onlinefeat OnlineFeatureExtraction

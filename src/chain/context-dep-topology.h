@@ -21,14 +21,14 @@
 #ifndef KALDI_CHAIN_CONTEXT_DEP_TOPOLOGY_H_
 #define KALDI_CHAIN_CONTEXT_DEP_TOPOLOGY_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "fstext/fstext-lib.h"
-#include "chain/phone-topology.h"
 #include "chain/phone-context.h"
+#include "chain/phone-topology.h"
+#include "fstext/fstext-lib.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace chain {

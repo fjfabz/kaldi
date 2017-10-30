@@ -22,19 +22,19 @@
 #ifndef KALDI_CHAIN_CHAIN_NUMERATOR_H_
 #define KALDI_CHAIN_CHAIN_NUMERATOR_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "chain/chain-supervision.h"
+#include "cudamatrix/cu-array.h"
+#include "cudamatrix/cu-matrix.h"
 #include "fstext/fstext-lib.h"
-#include "tree/context-dep.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
 #include "matrix/kaldi-matrix.h"
-#include "hmm/transition-model.h"
-#include "chain/chain-supervision.h"
-#include "cudamatrix/cu-matrix.h"
-#include "cudamatrix/cu-array.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace chain {

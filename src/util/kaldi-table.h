@@ -22,8 +22,8 @@
 #define KALDI_UTIL_KALDI_TABLE_H_
 
 #include <string>
-#include <vector>
 #include <utility>
+#include <vector>
 
 #include "base/kaldi-common.h"
 #include "util/kaldi-holder.h"

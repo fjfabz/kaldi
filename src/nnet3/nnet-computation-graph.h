@@ -21,11 +21,11 @@
 #define KALDI_NNET3_NNET_COMPUTATION_GRAPH_H_
 
 #include "nnet3/nnet-component-itf.h"
-#include "nnet3/nnet-nnet.h"
 #include "nnet3/nnet-computation.h"
+#include "nnet3/nnet-nnet.h"
 
-#include <iostream>
 #include <deque>
+#include <iostream>
 
 namespace kaldi {
 namespace nnet3 {

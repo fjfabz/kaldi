@@ -21,21 +21,21 @@
 #ifndef KALDI_ONLINE2_ONLINE_NNET2_DECODING_THREADED_H_
 #define KALDI_ONLINE2_ONLINE_NNET2_DECODING_THREADED_H_
 
-#include <string>
-#include <vector>
 #include <deque>
 #include <mutex>
+#include <string>
 #include <thread>
+#include <vector>
 
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
 #include "decoder/decodable-matrix.h"
-#include "nnet2/am-nnet.h"
-#include "online2/online-nnet2-feature-pipeline.h"
-#include "online2/online-endpoint.h"
 #include "decoder/lattice-faster-online-decoder.h"
 #include "hmm/transition-model.h"
+#include "matrix/matrix-lib.h"
+#include "nnet2/am-nnet.h"
+#include "online2/online-endpoint.h"
+#include "online2/online-nnet2-feature-pipeline.h"
+#include "util/common-utils.h"
 #include "util/kaldi-semaphore.h"
 
 namespace kaldi {

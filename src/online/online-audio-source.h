@@ -25,8 +25,8 @@
 
 #ifndef KALDI_NO_PORTAUDIO
 
-#include <portaudio.h>
 #include <pa_ringbuffer.h>
+#include <portaudio.h>
 
 #endif //KALDI_NO_PORTAUDIO
 

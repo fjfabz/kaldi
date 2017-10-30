@@ -17,8 +17,8 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <nnet3/decodable-online-looped.h>
 #include "nnet3/nnet-utils.h"
+#include <nnet3/decodable-online-looped.h>
 
 namespace kaldi {
 namespace nnet3 {

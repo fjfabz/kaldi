@@ -19,10 +19,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-utils.h"
 #include "kws/kaldi-kws.h"
 #include "kws/kws-functions.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

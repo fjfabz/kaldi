@@ -21,11 +21,11 @@
 #ifndef KALDI_NNET2_NNET_PRECONDITION_ONLINE_H_
 #define KALDI_NNET2_NNET_PRECONDITION_ONLINE_H_
 
+#include "base/kaldi-common.h"
+#include "cudamatrix/cu-matrix-lib.h"
+#include "matrix/matrix-lib.h"
 #include <iostream>
 #include <mutex>
-#include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
-#include "cudamatrix/cu-matrix-lib.h"
 
 namespace kaldi {
 namespace nnet2 {

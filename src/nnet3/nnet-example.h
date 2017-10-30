@@ -21,10 +21,9 @@
 #ifndef KALDI_NNET3_NNET_EXAMPLE_H_
 #define KALDI_NNET3_NNET_EXAMPLE_H_
 
+#include "hmm/posterior.h"
 #include "nnet3/nnet-nnet.h"
-#include "hmm/posterior.h"
 #include "util/table-types.h"
-#include "hmm/posterior.h"
 
 namespace kaldi {
 namespace nnet3 {

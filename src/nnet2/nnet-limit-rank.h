@@ -21,10 +21,10 @@
 #define KALDI_NNET2_NNET_LIMIT_RANK_H_
 
 #include "nnet2/nnet-nnet.h"
-#include "util/table-types.h"
+#include "nnet2/nnet-update.h"
 #include "util/kaldi-semaphore.h"
 #include "util/kaldi-thread.h"
-#include "nnet2/nnet-update.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace nnet2 {

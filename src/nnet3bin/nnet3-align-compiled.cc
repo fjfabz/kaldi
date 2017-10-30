@@ -21,16 +21,16 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
-#include "hmm/hmm-utils.h"
-#include "fstext/fstext-lib.h"
 #include "decoder/decoder-wrappers.h"
 #include "decoder/training-graph-compiler.h"
+#include "fstext/fstext-lib.h"
+#include "gmm/am-diag-gmm.h"
+#include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
 #include "nnet3/nnet-am-decodable-simple.h"
 #include "nnet3/nnet-utils.h"
-#include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

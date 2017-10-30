@@ -20,9 +20,9 @@
 #include <iomanip>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "sgmm2/am-sgmm2.h"
 #include "hmm/transition-model.h"
+#include "sgmm2/am-sgmm2.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

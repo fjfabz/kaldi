@@ -17,12 +17,12 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include "nnet3/nnet-parse.h"
+#include "cudamatrix/cu-matrix.h"
+#include "cudamatrix/cu-vector.h"
+#include <iomanip>
 #include <iterator>
 #include <sstream>
-#include <iomanip>
-#include "nnet3/nnet-parse.h"
-#include "cudamatrix/cu-vector.h"
-#include "cudamatrix/cu-matrix.h"
 
 namespace kaldi {
 namespace nnet3 {

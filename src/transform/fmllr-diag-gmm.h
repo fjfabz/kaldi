@@ -28,8 +28,8 @@
 #include "gmm/am-diag-gmm.h"
 #include "gmm/mle-full-gmm.h"
 #include "transform/transform-common.h"
-#include "util/kaldi-table.h"
 #include "util/kaldi-holder.h"
+#include "util/kaldi-table.h"
 
 namespace kaldi {
 

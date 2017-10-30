@@ -24,11 +24,11 @@
 // This file contains some #includes, forward declarations
 // and typedefs that are needed by all the main header
 // files in this directory.
-#include "base/kaldi-common.h"
-#include "matrix/kaldi-blas.h"
-#include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-common.h"
+#include "base/kaldi-common.h"
+#include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-matrixdim.h"
+#include "matrix/kaldi-blas.h"
 
 namespace kaldi {
 

@@ -18,12 +18,12 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 #include "util/kaldi-io.h"
-#include <errno.h>
-#include <cstdlib>
 #include "base/kaldi-math.h"
-#include "util/text-utils.h"
-#include "util/parse-options.h"
 #include "util/kaldi-holder.h"
+#include "util/parse-options.h"
+#include "util/text-utils.h"
+#include <cstdlib>
+#include <errno.h>
 
 #include "util/kaldi-pipebuf.h"
 

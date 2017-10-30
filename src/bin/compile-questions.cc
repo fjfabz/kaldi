@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/hmm-topology.h"
 #include "tree/build-tree-questions.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

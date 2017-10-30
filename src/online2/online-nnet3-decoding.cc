@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "online2/online-nnet3-decoding.h"
-#include "lat/lattice-functions.h"
 #include "lat/determinize-lattice-pruned.h"
+#include "lat/lattice-functions.h"
 
 namespace kaldi {
 

@@ -18,8 +18,8 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "gmm/am-diag-gmm.h"
 #include "gmm/mle-am-diag-gmm.h"
+#include "gmm/am-diag-gmm.h"
 #include "util/stl-utils.h"
 
 namespace kaldi {

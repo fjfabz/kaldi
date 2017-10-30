@@ -18,8 +18,8 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "base/kaldi-common.h"
 #include "util/kaldi-thread.h"
+#include "base/kaldi-common.h"
 
 namespace kaldi {
 int32 g_num_threads = 8;  // Initialize this global variable.

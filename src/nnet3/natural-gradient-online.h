@@ -20,11 +20,11 @@
 #ifndef KALDI_NNET3_NATURAL_GRADIENT_ONLINE_H_
 #define KALDI_NNET3_NATURAL_GRADIENT_ONLINE_H_
 
+#include "base/kaldi-common.h"
+#include "cudamatrix/cu-matrix-lib.h"
+#include "matrix/matrix-lib.h"
 #include <iostream>
 #include <mutex>
-#include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
-#include "cudamatrix/cu-matrix-lib.h"
 
 namespace kaldi {
 namespace nnet3 {

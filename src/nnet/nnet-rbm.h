@@ -23,11 +23,11 @@
 
 #include <string>
 
+#include "cudamatrix/cu-math.h"
 #include "nnet/nnet-component.h"
 #include "nnet/nnet-nnet.h"
 #include "nnet/nnet-utils.h"
 #include "nnet/nnet-various.h"
-#include "cudamatrix/cu-math.h"
 
 namespace kaldi {
 namespace nnet1 {

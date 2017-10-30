@@ -19,12 +19,12 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
-#include "fstext/fstext-utils.h"
 #include "fstext/context-fst.h"
+#include "fstext/fstext-utils.h"
 #include "fstext/kaldi-fst-io.h"
+#include "util/common-utils.h"
+#include "util/kaldi-io.h"
 
 
 /* for example of testing setup, see fstmakecontextsymbols.cc */

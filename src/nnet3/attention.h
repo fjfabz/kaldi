@@ -22,12 +22,12 @@
 #define KALDI_NNET3_ATTENTION_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "cudamatrix/cu-matrix-lib.h"
 #include "itf/options-itf.h"
 #include "matrix/matrix-lib.h"
-#include "cudamatrix/cu-matrix-lib.h"
-#include "nnet3/nnet-common.h"
 #include "nnet3/convolution.h"
+#include "nnet3/nnet-common.h"
+#include "util/common-utils.h"
 
 #include <iostream>
 

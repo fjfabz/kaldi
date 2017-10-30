@@ -24,9 +24,9 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "sgmm2/am-sgmm2.h"
 #include "hmm/transition-model.h"
 #include "itf/decodable-itf.h"
+#include "sgmm2/am-sgmm2.h"
 
 namespace kaldi {
 

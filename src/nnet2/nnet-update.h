@@ -21,8 +21,8 @@
 #ifndef KALDI_NNET2_NNET_UPDATE_H_
 #define KALDI_NNET2_NNET_UPDATE_H_
 
-#include "nnet2/nnet-nnet.h"
 #include "nnet2/nnet-example.h"
+#include "nnet2/nnet-nnet.h"
 #include "util/table-types.h"
 
 

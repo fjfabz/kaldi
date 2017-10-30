@@ -19,11 +19,11 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "transform/fmllr-raw.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
-#include "util/common-utils.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
+#include "transform/fmllr-raw.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

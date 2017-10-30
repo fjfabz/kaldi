@@ -26,12 +26,12 @@
    i.e. type DiscriminativeNnetExample    
 */
 
-#include "nnet2/nnet-nnet.h"
-#include "util/table-types.h"
+#include "hmm/posterior.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
 #include "nnet2/nnet-example.h"
-#include "hmm/transition-model.h"
-#include "hmm/posterior.h"
+#include "nnet2/nnet-nnet.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace nnet2 {

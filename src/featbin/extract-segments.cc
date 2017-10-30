@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "feat/wave-reader.h"
+#include "util/common-utils.h"
 
 /*! @brief This is the main program for extracting segments from a wav file
  - usage : 

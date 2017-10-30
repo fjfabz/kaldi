@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "gmm/model-common.h"
-#include "gmm/full-gmm.h"
 #include "gmm/diag-gmm.h"
+#include "gmm/full-gmm.h"
 #include "gmm/mle-full-gmm.h"
+#include "gmm/model-common.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

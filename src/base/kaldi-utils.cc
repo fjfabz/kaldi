@@ -27,8 +27,8 @@
 #include <unistd.h>
 #endif
 
-#include <string>
 #include "base/kaldi-common.h"
+#include <string>
 
 
 namespace kaldi {

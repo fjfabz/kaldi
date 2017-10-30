@@ -23,31 +23,31 @@
 
 #include "nnet/nnet-component.h"
 
-#include "nnet/nnet-nnet.h"
 #include "nnet/nnet-activation.h"
-#include "nnet/nnet-kl-hmm.h"
 #include "nnet/nnet-affine-transform.h"
+#include "nnet/nnet-kl-hmm.h"
 #include "nnet/nnet-linear-transform.h"
+#include "nnet/nnet-nnet.h"
 #include "nnet/nnet-rbm.h"
 #include "nnet/nnet-various.h"
 
-#include "nnet/nnet-convolutional-component.h"
 #include "nnet/nnet-average-pooling-component.h"
+#include "nnet/nnet-convolutional-component.h"
 #include "nnet/nnet-max-pooling-component.h"
 
-#include "nnet/nnet-convolutional-2d-component.h"
 #include "nnet/nnet-average-pooling-2d-component.h"
+#include "nnet/nnet-convolutional-2d-component.h"
 #include "nnet/nnet-max-pooling-2d-component.h"
 
-#include "nnet/nnet-lstm-projected.h"
 #include "nnet/nnet-blstm-projected.h"
+#include "nnet/nnet-lstm-projected.h"
 #include "nnet/nnet-recurrent.h"
 
-#include "nnet/nnet-sentence-averaging-component.h"
 #include "nnet/nnet-frame-pooling-component.h"
-#include "nnet/nnet-parallel-component.h"
 #include "nnet/nnet-multibasis-component.h"
+#include "nnet/nnet-parallel-component.h"
 #include "nnet/nnet-parametric-relu.h"
+#include "nnet/nnet-sentence-averaging-component.h"
 
 namespace kaldi {
 namespace nnet1 {

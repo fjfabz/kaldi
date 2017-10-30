@@ -24,8 +24,8 @@
 #ifndef KALDI_ONLINE_ONLINE_DECODABLE_H_
 #define KALDI_ONLINE_ONLINE_DECODABLE_H_
 
-#include "online/online-feat-input.h"
 #include "gmm/decodable-am-diag-gmm.h"
+#include "online/online-feat-input.h"
 
 namespace kaldi {
 

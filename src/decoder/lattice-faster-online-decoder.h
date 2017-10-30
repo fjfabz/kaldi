@@ -26,13 +26,13 @@
 #ifndef KALDI_DECODER_LATTICE_FASTER_ONLINE_DECODER_H_
 #define KALDI_DECODER_LATTICE_FASTER_ONLINE_DECODER_H_
 
-#include "util/stl-utils.h"
-#include "util/hash-list.h"
 #include "fst/fstlib.h"
-#include "itf/decodable-itf.h"
 #include "fstext/fstext-lib.h"
+#include "itf/decodable-itf.h"
 #include "lat/determinize-lattice-pruned.h"
 #include "lat/kaldi-lattice.h"
+#include "util/hash-list.h"
+#include "util/stl-utils.h"
 // Use the same configuration class as LatticeFasterDecoder.
 #include "decoder/lattice-faster-decoder.h"
 

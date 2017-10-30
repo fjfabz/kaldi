@@ -21,9 +21,9 @@
 #ifndef KALDI_TREE_CLUSTER_UTILS_H_
 #define KALDI_TREE_CLUSTER_UTILS_H_
 
-#include <vector>
-#include "matrix/matrix-lib.h"
 #include "itf/clusterable-itf.h"
+#include "matrix/matrix-lib.h"
+#include <vector>
 
 namespace kaldi {
 

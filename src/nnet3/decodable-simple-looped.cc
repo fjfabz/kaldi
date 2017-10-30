@@ -18,8 +18,8 @@
 // limitations under the License.
 
 #include "nnet3/decodable-simple-looped.h"
-#include "nnet3/nnet-utils.h"
 #include "nnet3/nnet-compile-looped.h"
+#include "nnet3/nnet-utils.h"
 
 namespace kaldi {
 namespace nnet3 {

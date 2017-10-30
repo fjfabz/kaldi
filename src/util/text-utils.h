@@ -20,14 +20,14 @@
 #ifndef KALDI_UTIL_TEXT_UTILS_H_
 #define KALDI_UTIL_TEXT_UTILS_H_
 
-#include <errno.h>
-#include <string>
+#include "base/kaldi-common.h"
 #include <algorithm>
+#include <errno.h>
+#include <limits>
 #include <map>
 #include <set>
+#include <string>
 #include <vector>
-#include <limits>
-#include "base/kaldi-common.h"
 
 
 namespace kaldi {

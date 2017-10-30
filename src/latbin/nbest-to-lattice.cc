@@ -19,9 +19,9 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 
 bool GetUtteranceId(const std::string &nbest_id, std::string *utterance_id) {

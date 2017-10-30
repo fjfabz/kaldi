@@ -20,11 +20,11 @@
 #ifndef KALDI_NNET3_NNET_DIAGNOSTICS_H_
 #define KALDI_NNET3_NNET_DIAGNOSTICS_H_
 
-#include "nnet3/nnet-example.h"
 #include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-compute.h"
-#include "nnet3/nnet-optimize.h"
 #include "nnet3/nnet-example-utils.h"
+#include "nnet3/nnet-example.h"
+#include "nnet3/nnet-optimize.h"
 #include "nnet3/nnet-training.h"
 
 namespace kaldi {

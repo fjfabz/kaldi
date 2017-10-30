@@ -20,13 +20,13 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "fstext/epsilon-property.h"
 #include "fstext/fstext-utils.h"
-#include "lat/kaldi-lattice.h"
-#include "lat/lattice-functions.h"
 #include "kws/kaldi-kws.h"
 #include "kws/kws-functions.h"
-#include "fstext/epsilon-property.h"
+#include "lat/kaldi-lattice.h"
+#include "lat/lattice-functions.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

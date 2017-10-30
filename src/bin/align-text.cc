@@ -18,8 +18,8 @@
 // limitations under the License.
 
 #include "util/common-utils.h"
-#include "util/parse-options.h"
 #include "util/edit-distance.h"
+#include "util/parse-options.h"
 #include <algorithm>
 
 bool IsNotToken(const std::string &token) {

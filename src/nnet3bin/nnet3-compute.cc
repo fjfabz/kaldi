@@ -20,10 +20,10 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "nnet3/nnet-am-decodable-simple.h"
 #include "base/timer.h"
+#include "nnet3/nnet-am-decodable-simple.h"
 #include "nnet3/nnet-utils.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

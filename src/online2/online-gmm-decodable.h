@@ -23,8 +23,8 @@
 #ifndef KALDI_ONLINE2_ONLINE_GMM_DECODABLE_H_
 #define KALDI_ONLINE2_ONLINE_GMM_DECODABLE_H_
 
-#include "itf/online-feature-itf.h"
 #include "gmm/decodable-am-diag-gmm.h"
+#include "itf/online-feature-itf.h"
 #include "matrix/matrix-lib.h"
 
 namespace kaldi {

@@ -20,13 +20,13 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
 #include "gmm/mle-am-diag-gmm.h"
+#include "hmm/transition-model.h"
 #include "tree/build-tree-utils.h"
-#include "tree/context-dep.h"
 #include "tree/clusterable-classes.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 #include "util/text-utils.h"
 
 namespace kaldi {

@@ -20,10 +20,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "util/parse-options.h"
 #include "tree/context-dep.h"
+#include "util/common-utils.h"
 #include "util/edit-distance.h"
+#include "util/parse-options.h"
 
 int main(int argc, char *argv[]) {
   using namespace kaldi;

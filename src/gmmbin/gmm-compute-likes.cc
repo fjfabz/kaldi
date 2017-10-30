@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "base/timer.h"
+#include "fstext/fstext-lib.h"
 #include "gmm/am-diag-gmm.h"
 #include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "base/timer.h"
+#include "util/common-utils.h"
 
 
 

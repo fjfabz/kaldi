@@ -20,10 +20,10 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "hmm/transition-model.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
 #include "transform/lda-estimate.h"
+#include "util/common-utils.h"
 
 /** @brief Accumulate LDA statistics based on pdf-ids. Inputs are the
 source models, that serve as the input (and may potentially contain

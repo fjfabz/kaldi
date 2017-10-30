@@ -51,8 +51,8 @@
 #include <cstring>
 
 #include "base/kaldi-types.h"
-#include "matrix/kaldi-vector.h"
 #include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
 
 
 namespace kaldi {

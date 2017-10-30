@@ -18,10 +18,10 @@
 // limitations under the License.
 
 
-#include "lat/lattice-functions.h"
-#include "kws/kws-functions.h"
 #include "fstext/determinize-star.h"
 #include "fstext/epsilon-property.h"
+#include "kws/kws-functions.h"
+#include "lat/lattice-functions.h"
 
 // this file implements things in kws-functions.h; it's an overflow from
 // kws-functions.cc (we split it up for compilation speed and to avoid

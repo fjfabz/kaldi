@@ -19,10 +19,10 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "lat/kaldi-lattice.h"
-#include "lat/word-align-lattice-lexicon.h"
 #include "lat/lattice-functions.h"
+#include "lat/word-align-lattice-lexicon.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -22,14 +22,14 @@
 #ifndef KALDI_CHAIN_CHAIN_SUPERVISION_H_
 #define KALDI_CHAIN_CHAIN_SUPERVISION_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "lat/kaldi-lattice.h"
 #include "fstext/deterministic-fst.h"
 #include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace chain {

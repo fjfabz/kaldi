@@ -20,17 +20,17 @@
 
 #ifndef KALDI_FSTEXT_FSTEXT_UTILS_INL_H_
 #define KALDI_FSTEXT_FSTEXT_UTILS_INL_H_
-#include <cstring>
 #include "base/kaldi-common.h"
-#include "util/stl-utils.h"
-#include "util/text-utils.h"
-#include "util/kaldi-io.h"
+#include "fstext/determinize-star.h"
 #include "fstext/factor.h"
 #include "fstext/pre-determinize.h"
-#include "fstext/determinize-star.h"
+#include "util/kaldi-io.h"
+#include "util/stl-utils.h"
+#include "util/text-utils.h"
+#include <cstring>
 
-#include <sstream>
 #include <algorithm>
+#include <sstream>
 #include <string>
 
 namespace fst {

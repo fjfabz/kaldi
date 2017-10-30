@@ -21,10 +21,10 @@
 #define KALDI_NNET2_NNET_FUNCTIONS_H_
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
 #include "matrix/matrix-lib.h"
 #include "nnet2/nnet-component.h"
 #include "nnet2/nnet-nnet.h"
+#include "util/kaldi-io.h"
 
 #include <iostream>
 #include <sstream>

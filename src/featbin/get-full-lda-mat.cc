@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/kaldi-matrix.h"
 #include "transform/transform-common.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 void IncreaseTransformDimension(int32 new_dimension,

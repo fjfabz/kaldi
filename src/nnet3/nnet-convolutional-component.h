@@ -20,10 +20,10 @@
 #ifndef KALDI_NNET3_NNET_CONVOLUTIONAL_COMPONENT_H_
 #define KALDI_NNET3_NNET_CONVOLUTIONAL_COMPONENT_H_
 
+#include "nnet3/convolution.h"
+#include "nnet3/natural-gradient-online.h"
 #include "nnet3/nnet-common.h"
 #include "nnet3/nnet-component-itf.h"
-#include "nnet3/natural-gradient-online.h"
-#include "nnet3/convolution.h"
 #include <iostream>
 
 namespace kaldi {

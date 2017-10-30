@@ -19,14 +19,14 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <vector>
-#include <climits>
+#include "lat/determinize-lattice-pruned.h"
 #include "fstext/determinize-lattice.h" // for LatticeStringRepository
 #include "fstext/fstext-utils.h"
 #include "lat/lattice-functions.h"  // for PruneLattice
 #include "lat/minimize-lattice.h"   // for minimization
 #include "lat/push-lattice.h"       // for minimization
-#include "lat/determinize-lattice-pruned.h"
+#include <climits>
+#include <vector>
 
 namespace fst {
 

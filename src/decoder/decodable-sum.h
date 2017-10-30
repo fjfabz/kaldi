@@ -21,8 +21,8 @@
 #ifndef KALDI_DECODER_DECODABLE_SUM_H_
 #define KALDI_DECODER_DECODABLE_SUM_H_
 
-#include <vector>
 #include <utility>
+#include <vector>
 
 #include "base/kaldi-common.h"
 #include "itf/decodable-itf.h"

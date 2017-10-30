@@ -20,16 +20,16 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "gmm/am-diag-gmm.h"
-#include "tree/context-dep.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/simple-decoder.h"
-#include "gmm/decodable-am-diag-gmm.h"
-#include "fstext/lattice-utils.h"
-#include "lat/kaldi-lattice.h"
 #include "base/timer.h"
+#include "decoder/simple-decoder.h"
+#include "fstext/fstext-lib.h"
+#include "fstext/lattice-utils.h"
+#include "gmm/am-diag-gmm.h"
+#include "gmm/decodable-am-diag-gmm.h"
+#include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

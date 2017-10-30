@@ -23,13 +23,13 @@
 
 #include <sstream>
 
+#include "cudamatrix/cu-array.h"
 #include "cudamatrix/cu-common.h"
+#include "cudamatrix/cu-math.h"
+#include "cudamatrix/cu-matrix.h"
+#include "cudamatrix/cu-packed-matrix.h"
 #include "matrix/matrix-common.h"
 #include "matrix/tp-matrix.h"
-#include "cudamatrix/cu-array.h"
-#include "cudamatrix/cu-math.h"
-#include "cudamatrix/cu-packed-matrix.h"
-#include "cudamatrix/cu-matrix.h"
 
 namespace kaldi {
 

@@ -24,9 +24,9 @@
   #include <curand.h>
 #endif
 
+#include "base/kaldi-math.h"
 #include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-vector.h"
-#include "base/kaldi-math.h"
 
 namespace kaldi {
 

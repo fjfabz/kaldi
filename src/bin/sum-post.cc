@@ -19,9 +19,9 @@
 
 
 #include "base/kaldi-common.h"
+#include "hmm/posterior.h"
 #include "util/common-utils.h"
 #include "util/stl-utils.h"
-#include "hmm/posterior.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -21,10 +21,10 @@
 #define KALDI_NNET3_NNET_COMPILE_H_
 
 #include "nnet3/nnet-component-itf.h"
+#include "nnet3/nnet-computation-graph.h"
+#include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-nnet.h"
 #include "nnet3/nnet-parse.h"
-#include "nnet3/nnet-computation.h"
-#include "nnet3/nnet-computation-graph.h"
 
 #include <iostream>
 

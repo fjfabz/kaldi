@@ -23,8 +23,8 @@
  *
  * Implementation of specialized PackedMatrix template methods
  */
-#include "matrix/cblas-wrappers.h"
 #include "matrix/packed-matrix.h"
+#include "matrix/cblas-wrappers.h"
 #include "matrix/kaldi-vector.h"
 
 namespace kaldi {

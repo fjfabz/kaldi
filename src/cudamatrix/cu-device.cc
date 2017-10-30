@@ -28,18 +28,18 @@
 #include <cuda.h>
 #include <cuda_runtime_api.h>
 
+#include <algorithm>
 #include <string>
 #include <vector>
-#include <algorithm>
 #ifndef _MSC_VER
 #include <dlfcn.h>
 #endif
 
+#include "base/kaldi-error.h"
+#include "base/kaldi-utils.h"
 #include "cudamatrix/cu-common.h"
 #include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-matrix.h"
-#include "base/kaldi-error.h"
-#include "base/kaldi-utils.h"
 #include "util/common-utils.h"
 #include "util/kaldi-io.h"
 

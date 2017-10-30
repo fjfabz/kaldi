@@ -21,14 +21,14 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <iterator>
-#include <sstream>
 #include "nnet2/nnet-component.h"
-#include "nnet2/nnet-precondition.h"
 #include "nnet2/nnet-precondition-online.h"
+#include "nnet2/nnet-precondition.h"
+#include "util/kaldi-io.h"
 #include "util/stl-utils.h"
 #include "util/text-utils.h"
-#include "util/kaldi-io.h"
+#include <iterator>
+#include <sstream>
 
 namespace kaldi {
 namespace nnet2 {

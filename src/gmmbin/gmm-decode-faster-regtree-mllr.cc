@@ -22,16 +22,16 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "base/timer.h"
+#include "decoder/faster-decoder.h"
+#include "fstext/fstext-lib.h"
 #include "gmm/am-diag-gmm.h"
 #include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h" // for {Compact}LatticeArc
+#include "transform/decodable-am-diag-gmm-regtree.h"
 #include "transform/regression-tree.h"
 #include "transform/regtree-mllr-diag-gmm.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/faster-decoder.h"
-#include "transform/decodable-am-diag-gmm-regtree.h"
-#include "base/timer.h"
-#include "lat/kaldi-lattice.h" // for {Compact}LatticeArc
+#include "util/common-utils.h"
 
 using fst::SymbolTable;
 using fst::VectorFst;

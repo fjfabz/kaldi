@@ -21,22 +21,22 @@
 #ifndef KALDI_ONLINE2_ONLINE_GMM_DECODING_H_
 #define KALDI_ONLINE2_ONLINE_GMM_DECODING_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
-#include "transform/basis-fmllr-diag-gmm.h"
-#include "transform/fmllr-diag-gmm.h"
-#include "online2/online-feature-pipeline.h"
-#include "online2/online-gmm-decodable.h"
-#include "online2/online-endpoint.h"
 #include "decoder/lattice-faster-online-decoder.h"
-#include "hmm/transition-model.h"
 #include "gmm/am-diag-gmm.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
+#include "matrix/matrix-lib.h"
+#include "online2/online-endpoint.h"
+#include "online2/online-feature-pipeline.h"
+#include "online2/online-gmm-decodable.h"
+#include "transform/basis-fmllr-diag-gmm.h"
+#include "transform/fmllr-diag-gmm.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

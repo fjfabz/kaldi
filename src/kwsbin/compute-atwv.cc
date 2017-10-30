@@ -22,9 +22,9 @@
 #include <iomanip>      // std::setw
 
 #include "base/kaldi-common.h"
+#include "kws/kws-scoring.h"
 #include "util/common-utils.h"
 #include "util/stl-utils.h"
-#include "kws/kws-scoring.h"
 
 
 int main(int argc, char *argv[]) {

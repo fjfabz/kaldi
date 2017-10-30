@@ -20,14 +20,14 @@
 
 #include <numeric>
 
-#include "nnet/nnet-trnopts.h"
-#include "nnet/nnet-nnet.h"
-#include "nnet/nnet-loss.h"
-#include "nnet/nnet-randomizer.h"
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "base/timer.h"
 #include "cudamatrix/cu-device.h"
+#include "nnet/nnet-loss.h"
+#include "nnet/nnet-nnet.h"
+#include "nnet/nnet-randomizer.h"
+#include "nnet/nnet-trnopts.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

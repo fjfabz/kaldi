@@ -20,11 +20,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <vector>
 #include "hmm/posterior.h"
+#include "matrix/kaldi-matrix.h"
 #include "util/kaldi-table.h"
 #include "util/stl-utils.h"
-#include "matrix/kaldi-matrix.h"
+#include <vector>
 
 
 namespace kaldi {

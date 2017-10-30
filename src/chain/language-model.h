@@ -21,13 +21,13 @@
 #ifndef KALDI_CHAIN_LANGUAGE_MODEL_H_
 #define KALDI_CHAIN_LANGUAGE_MODEL_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

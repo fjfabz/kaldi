@@ -21,8 +21,8 @@
 #define KALDI_NNET2_NNET_PRECONDITION_H_
 
 #include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
 #include "cudamatrix/cu-matrix-lib.h"
+#include "matrix/matrix-lib.h"
 
 #include <iostream>
 

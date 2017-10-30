@@ -20,8 +20,8 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "base/timer.h"
 #include "online-faster-decoder.h"
+#include "base/timer.h"
 #include "fstext/fstext-utils.h"
 #include "hmm/hmm-utils.h"
 

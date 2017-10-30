@@ -22,8 +22,8 @@
 #ifndef _MSC_VER
 #include <stdlib.h>
 #endif
-#include <string>
 #include <mutex>
+#include <string>
 
 namespace kaldi {
 // These routines are tested in matrix/matrix-test.cc

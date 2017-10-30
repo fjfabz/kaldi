@@ -24,12 +24,12 @@ using std::string;
 using std::vector;
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
-#include "transform/fmllr-diag-gmm.h"
-#include "transform/basis-fmllr-diag-gmm.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
+#include "transform/basis-fmllr-diag-gmm.h"
+#include "transform/fmllr-diag-gmm.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 void AccumulateForUtterance(const Matrix<BaseFloat> &feats,

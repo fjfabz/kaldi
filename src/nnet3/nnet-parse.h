@@ -20,8 +20,8 @@
 #ifndef KALDI_NNET3_NNET_PARSE_H_
 #define KALDI_NNET3_NNET_PARSE_H_
 
-#include "util/text-utils.h"
 #include "matrix/kaldi-vector.h"
+#include "util/text-utils.h"
 
 namespace kaldi {
 namespace nnet3 {

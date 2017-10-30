@@ -22,8 +22,8 @@
 #define KALDI_FSTEXT_REMOVE_EPS_LOCAL_H_
 
 
-#include <fst/fstlib.h>
 #include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 namespace fst {
 

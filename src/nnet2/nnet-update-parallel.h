@@ -20,12 +20,12 @@
 #ifndef KALDI_NNET2_NNET_UPDATE_PARALLEL_H_
 #define KALDI_NNET2_NNET_UPDATE_PARALLEL_H_
 
+#include "itf/options-itf.h"
 #include "nnet2/nnet-nnet.h"
-#include "util/table-types.h"
+#include "nnet2/nnet-update.h"
 #include "util/kaldi-semaphore.h"
 #include "util/kaldi-thread.h"
-#include "itf/options-itf.h"
-#include "nnet2/nnet-update.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace nnet2 {

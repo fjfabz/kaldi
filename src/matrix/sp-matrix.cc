@@ -21,11 +21,11 @@
 
 #include <limits>
 
-#include "matrix/sp-matrix.h"
-#include "matrix/kaldi-vector.h"
-#include "matrix/kaldi-matrix.h"
-#include "matrix/matrix-functions.h"
 #include "matrix/cblas-wrappers.h"
+#include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
+#include "matrix/matrix-functions.h"
+#include "matrix/sp-matrix.h"
 
 namespace kaldi {
 

@@ -19,8 +19,8 @@
 
 #ifndef KALDI_FSTEXT_EPSILON_PROPERTY_H_
 #define KALDI_FSTEXT_EPSILON_PROPERTY_H_
-#include <fst/fstlib.h>
 #include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 namespace fst {
 

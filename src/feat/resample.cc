@@ -21,11 +21,11 @@
 // limitations under the License.
 
 
-#include <algorithm>
-#include <limits>
+#include "feat/resample.h"
 #include "feat/feature-functions.h"
 #include "matrix/matrix-functions.h"
-#include "feat/resample.h"
+#include <algorithm>
+#include <limits>
 
 namespace kaldi {
 

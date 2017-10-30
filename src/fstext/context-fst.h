@@ -52,10 +52,10 @@
 using std::unordered_map;
 
 #include <algorithm>
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 #include <string>
 #include <vector>
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
 
 #include "util/const-integer-set.h"
 

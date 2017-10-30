@@ -23,17 +23,17 @@
 #ifndef KALDI_UTIL_KALDI_TABLE_INL_H_
 #define KALDI_UTIL_KALDI_TABLE_INL_H_
 
+#include "util/kaldi-holder.h"
+#include "util/kaldi-io.h"
+#include "util/kaldi-semaphore.h"
+#include "util/stl-utils.h"  // for StringHasher.
+#include "util/text-utils.h"
 #include <algorithm>
+#include <errno.h>
 #include <string>
 #include <thread>
 #include <utility>
 #include <vector>
-#include <errno.h>
-#include "util/kaldi-io.h"
-#include "util/kaldi-holder.h"
-#include "util/text-utils.h"
-#include "util/stl-utils.h"  // for StringHasher.
-#include "util/kaldi-semaphore.h"
 
 
 namespace kaldi {

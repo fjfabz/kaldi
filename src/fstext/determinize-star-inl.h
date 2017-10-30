@@ -27,8 +27,8 @@
 #include <unordered_map>
 using std::unordered_map;
 
-#include <vector>
 #include <climits>
+#include <vector>
 
 namespace fst {
 

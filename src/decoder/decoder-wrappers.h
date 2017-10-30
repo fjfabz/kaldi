@@ -20,9 +20,9 @@
 #ifndef KALDI_DECODER_DECODER_WRAPPERS_H_
 #define KALDI_DECODER_DECODER_WRAPPERS_H_
 
-#include "itf/options-itf.h"
 #include "decoder/lattice-faster-decoder.h"
 #include "decoder/lattice-simple-decoder.h"
+#include "itf/options-itf.h"
 
 // This header contains declarations from various convenience functions that are called
 // from binary-level programs such as gmm-decode-faster.cc, gmm-align-compiled.cc, and

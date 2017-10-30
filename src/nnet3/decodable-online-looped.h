@@ -22,13 +22,13 @@
 #ifndef KALDI_NNET3_DECODABLE_ONLINE_LOOPED_H_
 #define KALDI_NNET3_DECODABLE_ONLINE_LOOPED_H_
 
-#include "itf/online-feature-itf.h"
+#include "hmm/transition-model.h"
 #include "itf/decodable-itf.h"
+#include "itf/online-feature-itf.h"
 #include "nnet3/am-nnet-simple.h"
+#include "nnet3/decodable-simple-looped.h"
 #include "nnet3/nnet-compute.h"
 #include "nnet3/nnet-optimize.h"
-#include "nnet3/decodable-simple-looped.h"
-#include "hmm/transition-model.h"
 
 namespace kaldi {
 namespace nnet3 {

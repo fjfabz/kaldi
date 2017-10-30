@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "chain/chain-supervision.h"
+#include "hmm/hmm-utils.h"
 #include "lat/lattice-functions.h"
 #include "util/text-utils.h"
-#include "hmm/hmm-utils.h"
 #include <numeric>
 
 namespace kaldi {

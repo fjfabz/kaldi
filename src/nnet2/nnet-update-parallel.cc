@@ -17,10 +17,10 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <numeric>
 #include "nnet2/nnet-update-parallel.h"
 #include "nnet2/nnet-update.h"
 #include "util/kaldi-thread.h"
+#include <numeric>
 
 namespace kaldi {
 namespace nnet2 {

@@ -22,14 +22,14 @@
 #ifndef KALDI_LAT_MINIMIZE_LATTICE_H_
 #define KALDI_LAT_MINIMIZE_LATTICE_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 namespace fst {
 

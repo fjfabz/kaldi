@@ -24,8 +24,8 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "gmm/model-common.h"
 #include "gmm/diag-gmm.h"
+#include "gmm/model-common.h"
 #include "matrix/matrix-lib.h"
 
 namespace kaldi {

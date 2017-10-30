@@ -52,9 +52,9 @@
 #ifndef KALDI_LM_MIKOLOV_RNNLM_LIB_H_
 #define KALDI_LM_MIKOLOV_RNNLM_LIB_H_
 
+#include "util/stl-utils.h"
 #include <string>
 #include <vector>
-#include "util/stl-utils.h"
 
 namespace rnnlm {
 

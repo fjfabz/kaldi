@@ -21,8 +21,8 @@
 #include <vector>
 using std::vector;
 
-#include "transform/fmllr-raw.h"
 #include "transform/fmllr-diag-gmm.h"
+#include "transform/fmllr-raw.h"
 
 namespace kaldi {
 

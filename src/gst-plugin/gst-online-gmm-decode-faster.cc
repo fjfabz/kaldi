@@ -43,21 +43,21 @@
 #  define VERSION "1.0"
 #endif
 
-#include <utility>
-#include <string>
 #include <algorithm>
+#include <string>
+#include <utility>
 
-#include "gst-plugin/kaldimarshal.h"
 #include "gst-plugin/gst-online-gmm-decode-faster.h"
+#include "gst-plugin/kaldimarshal.h"
 
 #include "feat/feature-mfcc.h"
 #include "online/online-audio-source.h"
-#include "online/online-feat-input.h"
 #include "online/online-decodable.h"
 #include "online/online-faster-decoder.h"
+#include "online/online-feat-input.h"
 #include "online/onlinebin-util.h"
-#include "util/simple-options.h"
 #include "util/parse-options.h"
+#include "util/simple-options.h"
 
 namespace kaldi {
 

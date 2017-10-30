@@ -19,9 +19,9 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "matrix/kaldi-matrix.h"
 #include "ivector/voice-activity-detection.h"
+#include "matrix/kaldi-matrix.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

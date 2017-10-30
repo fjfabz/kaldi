@@ -23,16 +23,16 @@
 #ifndef KALDI_TRANSFORM_BASIS_FMLLR_DIAG_GMM_H_
 #define KALDI_TRANSFORM_BASIS_FMLLR_DIAG_GMM_H_
 
-#include <vector>
 #include <string>
+#include <vector>
 
 #include "base/kaldi-common.h"
 #include "gmm/am-diag-gmm.h"
-#include "gmm/mle-full-gmm.h"
 #include "gmm/mle-am-diag-gmm.h"
+#include "gmm/mle-full-gmm.h"
 #include "transform/transform-common.h"
-#include "util/kaldi-table.h"
 #include "util/kaldi-holder.h"
+#include "util/kaldi-table.h"
 
 namespace kaldi {
 

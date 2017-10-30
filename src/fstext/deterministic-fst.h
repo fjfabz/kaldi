@@ -53,8 +53,8 @@
 #include <utility>
 #include <vector>
 
-#include <fst/fstlib.h>
 #include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 #include "util/stl-utils.h"
 

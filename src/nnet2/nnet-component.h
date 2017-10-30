@@ -24,12 +24,12 @@
 #ifndef KALDI_NNET2_NNET_COMPONENT_H_
 #define KALDI_NNET2_NNET_COMPONENT_H_
 
-#include <mutex>
 #include "base/kaldi-common.h"
+#include "cudamatrix/cu-matrix-lib.h"
 #include "itf/options-itf.h"
 #include "matrix/matrix-lib.h"
-#include "cudamatrix/cu-matrix-lib.h"
 #include "nnet2/nnet-precondition-online.h"
+#include <mutex>
 
 #include <iostream>
 

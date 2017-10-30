@@ -25,11 +25,11 @@
 
 #include <vector>
 
-#include "nnet/nnet-component.h"
 #include "cudamatrix/cu-math.h"
 #include "cudamatrix/cu-rand.h"
-#include "matrix/kaldi-vector.h"
 #include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
+#include "nnet/nnet-component.h"
 
 namespace kaldi {
 namespace nnet1 {

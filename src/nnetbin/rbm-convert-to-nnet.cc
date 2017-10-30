@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "nnet/nnet-nnet.h"
 #include "nnet/nnet-rbm.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -28,10 +28,10 @@
 // They were put in util/ in order to avoid making the Matrix library
 // dependent on them.
 
-#include <cctype>
-#include <vector>
-#include <string>
 #include "base/kaldi-common.h"
+#include <cctype>
+#include <string>
+#include <vector>
 
 namespace kaldi {
 

@@ -21,13 +21,13 @@
 #ifndef KALDI_NNET3_NNET_DISCRIMINATIVE_DIAGNOSTICS_H_
 #define KALDI_NNET3_NNET_DISCRIMINATIVE_DIAGNOSTICS_H_
 
-#include "nnet3/nnet-example.h"
+#include "nnet3/discriminative-training.h"
 #include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-compute.h"
-#include "nnet3/nnet-optimize.h"
-#include "nnet3/nnet-discriminative-example.h"
 #include "nnet3/nnet-diagnostics.h"
-#include "nnet3/discriminative-training.h"
+#include "nnet3/nnet-discriminative-example.h"
+#include "nnet3/nnet-example.h"
+#include "nnet3/nnet-optimize.h"
 
 namespace kaldi {
 namespace nnet3 {

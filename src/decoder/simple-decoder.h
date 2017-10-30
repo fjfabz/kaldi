@@ -23,10 +23,10 @@
 #define KALDI_DECODER_SIMPLE_DECODER_H_
 
 
-#include "util/stl-utils.h"
 #include "fst/fstlib.h"
-#include "lat/kaldi-lattice.h"
 #include "itf/decodable-itf.h"
+#include "lat/kaldi-lattice.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

@@ -23,22 +23,22 @@
 
 #include "feat/feature-mfcc.h"
 #include "feat/wave-reader.h"
-#include "online/online-tcp-source.h"
-#include "online/online-feat-input.h"
-#include "online/online-decodable.h"
-#include "online/online-faster-decoder.h"
-#include "online/onlinebin-util.h"
-#include "matrix/kaldi-vector.h"
-#include "lat/word-align-lattice.h"
+#include "lat/determinize-lattice-pruned.h"
 #include "lat/lattice-functions.h"
 #include "lat/sausages.h"
-#include "lat/determinize-lattice-pruned.h"
+#include "lat/word-align-lattice.h"
+#include "matrix/kaldi-vector.h"
+#include "online/online-decodable.h"
+#include "online/online-faster-decoder.h"
+#include "online/online-feat-input.h"
+#include "online/online-tcp-source.h"
+#include "online/onlinebin-util.h"
 
+#include <ctime>
+#include <signal.h>
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include <ctime>
-#include <signal.h>
 
 namespace kaldi {
 /*

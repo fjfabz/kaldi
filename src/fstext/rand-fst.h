@@ -23,9 +23,9 @@
 #include <sstream>
 #include <string>
 
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
 #include "base/kaldi-math.h"
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 namespace fst {
 

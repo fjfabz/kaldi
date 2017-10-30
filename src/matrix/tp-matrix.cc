@@ -19,9 +19,9 @@
 // limitations under the License.
 
 #include "matrix/tp-matrix.h"
-#include "matrix/sp-matrix.h"
-#include "matrix/kaldi-matrix.h"
 #include "matrix/cblas-wrappers.h"
+#include "matrix/kaldi-matrix.h"
+#include "matrix/sp-matrix.h"
 
 
 namespace kaldi {

@@ -21,17 +21,17 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <iostream>
-#include <iomanip>
-#include <fstream>
 #include <algorithm>
-#include <cstdlib>
 #include <cassert>
+#include <cstdlib>
 #include <cstring>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
 
+#include "base/kaldi-common.h"
 #include "util/parse-options.h"
 #include "util/text-utils.h"
-#include "base/kaldi-common.h"
 
 namespace kaldi {
 

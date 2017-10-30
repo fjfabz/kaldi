@@ -20,13 +20,13 @@
 #ifndef KALDI_DECODER_BIGLM_FASTER_DECODER_H_
 #define KALDI_DECODER_BIGLM_FASTER_DECODER_H_
 
-#include "util/stl-utils.h"
-#include "util/hash-list.h"
+#include "decoder/faster-decoder.h" // for options class
 #include "fst/fstlib.h"
+#include "fstext/deterministic-fst.h"
 #include "itf/decodable-itf.h"
 #include "lat/kaldi-lattice.h" // for CompactLatticeArc
-#include "decoder/faster-decoder.h" // for options class
-#include "fstext/deterministic-fst.h"
+#include "util/hash-list.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

@@ -26,10 +26,10 @@
 
 #include "base/kaldi-common.h"
 #include "gmm/am-diag-gmm.h"
-#include "transform/transform-common.h"
 #include "transform/regression-tree.h"
-#include "util/kaldi-table.h"
+#include "transform/transform-common.h"
 #include "util/kaldi-holder.h"
+#include "util/kaldi-table.h"
 
 namespace kaldi {
 

@@ -25,9 +25,9 @@
 #include "nnet3/nnet-nnet.h"
 
 #include <iostream>
+#include <map>
 #include <sstream>
 #include <vector>
-#include <map>
 
 
 namespace kaldi {

@@ -23,9 +23,9 @@
 #ifndef KALDI_ONLINE_ONLINE_FASTER_DECODER_H_
 #define KALDI_ONLINE_ONLINE_FASTER_DECODER_H_
 
-#include "util/stl-utils.h"
 #include "decoder/faster-decoder.h"
 #include "hmm/transition-model.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

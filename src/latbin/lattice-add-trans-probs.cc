@@ -19,12 +19,12 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
+#include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
 #include "lat/lattice-functions.h"
-#include "hmm/transition-model.h"
-#include "hmm/hmm-utils.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

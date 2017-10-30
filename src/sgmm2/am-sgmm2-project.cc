@@ -25,10 +25,10 @@
 #include <vector>
 using std::vector;
 
+#include "gmm/diag-gmm-normal.h"
+#include "gmm/full-gmm-normal.h"
 #include "sgmm2/am-sgmm2-project.h"
 #include "util/kaldi-thread.h"
-#include "gmm/full-gmm-normal.h"
-#include "gmm/diag-gmm-normal.h"
 
 namespace kaldi {
 

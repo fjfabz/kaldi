@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
 #include "fstext/determinize-star.h"
 #include "fstext/fstext-utils.h"
 #include "fstext/kaldi-fst-io.h"
+#include "util/common-utils.h"
 #if !defined(_MSC_VER) && !defined(__APPLE__)
 #include <signal.h> // Comment this line and the call to signal below if
 // it causes compilation problems.  It is only to enable a debugging procedure

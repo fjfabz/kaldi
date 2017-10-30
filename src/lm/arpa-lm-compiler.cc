@@ -25,10 +25,10 @@
 #include <utility>
 
 #include "base/kaldi-math.h"
+#include "fstext/remove-eps-local.h"
 #include "lm/arpa-lm-compiler.h"
 #include "util/stl-utils.h"
 #include "util/text-utils.h"
-#include "fstext/remove-eps-local.h"
 
 namespace kaldi {
 

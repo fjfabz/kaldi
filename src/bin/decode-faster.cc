@@ -20,14 +20,14 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/faster-decoder.h"
-#include "decoder/decodable-matrix.h"
 #include "base/timer.h"
+#include "decoder/decodable-matrix.h"
+#include "decoder/faster-decoder.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h" // for {Compact}LatticeArc
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -22,20 +22,20 @@
 #ifndef KALDI_CHAIN_CHAIN_DEN_GRAPH_H_
 #define KALDI_CHAIN_CHAIN_DEN_GRAPH_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "fstext/fstext-lib.h"
-#include "tree/context-dep.h"
-#include "lat/kaldi-lattice.h"
-#include "matrix/kaldi-matrix.h"
 #include "chain/chain-datastruct.h"
-#include "hmm/transition-model.h"
+#include "cudamatrix/cu-array.h"
 #include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-vector.h"
-#include "cudamatrix/cu-array.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
+#include "matrix/kaldi-matrix.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace chain {

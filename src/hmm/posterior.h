@@ -24,11 +24,11 @@
 #define KALDI_HMM_POSTERIOR_H_
 
 #include "base/kaldi-common.h"
+#include "hmm/transition-model.h"
+#include "matrix/kaldi-matrix.h"
 #include "tree/context-dep.h"
 #include "util/const-integer-set.h"
 #include "util/kaldi-table.h"
-#include "hmm/transition-model.h"
-#include "matrix/kaldi-matrix.h"
 
 
 namespace kaldi {

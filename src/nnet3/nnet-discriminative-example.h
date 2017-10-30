@@ -21,14 +21,14 @@
 #ifndef KALDI_NNET3_NNET_DISCRIMINATIVE_EXAMPLE_H_
 #define KALDI_NNET3_NNET_DISCRIMINATIVE_EXAMPLE_H_
 
-#include "nnet3/nnet-nnet.h"
-#include "nnet3/nnet-computation.h"
-#include "util/table-types.h"
-#include "nnet3/discriminative-supervision.h"
-#include "nnet3/nnet-example.h"
-#include "nnet3/nnet-example-utils.h"
 #include "hmm/posterior.h"
 #include "hmm/transition-model.h"
+#include "nnet3/discriminative-supervision.h"
+#include "nnet3/nnet-computation.h"
+#include "nnet3/nnet-example-utils.h"
+#include "nnet3/nnet-example.h"
+#include "nnet3/nnet-nnet.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace nnet3 {

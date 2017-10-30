@@ -23,9 +23,9 @@
 
 #include <string>
 
+#include "cudamatrix/cu-math.h"
 #include "nnet/nnet-component.h"
 #include "nnet/nnet-utils.h"
-#include "cudamatrix/cu-math.h"
 
 namespace kaldi {
 namespace nnet1 {

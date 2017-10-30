@@ -24,15 +24,15 @@
 
 #if HAVE_CUDA == 1
 
-#include <cublas_v2.h>
-#include <map>
-#include <list>
-#include <queue>
-#include <iostream>
-#include <cuda.h>
-#include <cuda_runtime_api.h>
 #include "base/kaldi-common.h"
 #include "util/stl-utils.h"
+#include <cublas_v2.h>
+#include <cuda.h>
+#include <cuda_runtime_api.h>
+#include <iostream>
+#include <list>
+#include <map>
+#include <queue>
 
 namespace kaldi {
 

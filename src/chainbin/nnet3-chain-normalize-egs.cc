@@ -18,10 +18,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "chain/chain-supervision.h"
 #include "hmm/transition-model.h"
 #include "nnet3/nnet-chain-example.h"
-#include "chain/chain-supervision.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

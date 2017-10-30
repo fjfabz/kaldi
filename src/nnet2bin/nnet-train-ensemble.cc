@@ -19,10 +19,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/transition-model.h"
-#include "nnet2/train-nnet-ensemble.h"
 #include "nnet2/am-nnet.h"
+#include "nnet2/train-nnet-ensemble.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

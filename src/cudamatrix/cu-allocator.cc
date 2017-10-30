@@ -25,15 +25,15 @@
 #include <cuda.h>
 #include <cuda_runtime_api.h>
 
-#include <string>
-#include <vector>
-#include <algorithm>
+#include "base/kaldi-error.h"
+#include "base/kaldi-utils.h"
 #include "cudamatrix/cu-common.h"
 #include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-matrix.h"
-#include "base/kaldi-error.h"
-#include "base/kaldi-utils.h"
 #include "util/common-utils.h"
+#include <algorithm>
+#include <string>
+#include <vector>
 
 namespace kaldi {
 

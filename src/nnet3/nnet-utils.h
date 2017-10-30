@@ -21,13 +21,13 @@
 #define KALDI_NNET3_NNET_UTILS_H_
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
 #include "matrix/matrix-lib.h"
 #include "nnet3/nnet-common.h"
 #include "nnet3/nnet-component-itf.h"
-#include "nnet3/nnet-descriptor.h"
 #include "nnet3/nnet-computation.h"
+#include "nnet3/nnet-descriptor.h"
 #include "nnet3/nnet-example.h"
+#include "util/kaldi-io.h"
 
 namespace kaldi {
 namespace nnet3 {

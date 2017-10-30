@@ -24,8 +24,8 @@
 
 #include <sstream>
 
-#include <vector>
 #include "cudamatrix/cu-common.h"
+#include <vector>
 
 
 namespace kaldi {

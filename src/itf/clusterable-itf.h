@@ -21,8 +21,8 @@
 #ifndef KALDI_ITF_CLUSTERABLE_ITF_H_
 #define KALDI_ITF_CLUSTERABLE_ITF_H_ 1
 
-#include <string>
 #include "base/kaldi-common.h"
+#include <string>
 
 namespace kaldi {
 

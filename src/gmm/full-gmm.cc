@@ -24,16 +24,16 @@
 #include <algorithm>
 #include <functional>
 #include <limits>
-#include <string>
 #include <queue>
+#include <string>
 #include <utility>
 using std::pair;
 #include <vector>
 using std::vector;
 
-#include "gmm/full-gmm.h"
-#include "gmm/full-gmm-normal.h"
 #include "gmm/diag-gmm.h"
+#include "gmm/full-gmm-normal.h"
+#include "gmm/full-gmm.h"
 #include "util/stl-utils.h"
 
 namespace kaldi {

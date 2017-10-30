@@ -21,14 +21,14 @@
 #ifndef KALDI_NNET_NNET_ACTIVATION_H_
 #define KALDI_NNET_NNET_ACTIVATION_H_
 
+#include <cmath>
 #include <string>
 #include <vector>
-#include <cmath>
 
-#include "nnet/nnet-component.h"
-#include "nnet/nnet-utils.h"
 #include "cudamatrix/cu-math.h"
 #include "cudamatrix/cu-rand.h"
+#include "nnet/nnet-component.h"
+#include "nnet/nnet-utils.h"
 #include "util/text-utils.h"
 
 namespace kaldi {

@@ -22,8 +22,8 @@
 
 #if !defined(_MSC_VER)
 
-#include "online-audio-source.h"
 #include "matrix/kaldi-vector.h"
+#include "online-audio-source.h"
 
 namespace kaldi {
 /*

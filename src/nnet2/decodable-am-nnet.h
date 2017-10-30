@@ -20,13 +20,13 @@
 #ifndef KALDI_NNET2_DECODABLE_AM_NNET_H_
 #define KALDI_NNET2_DECODABLE_AM_NNET_H_
 
-#include <vector>
 #include "base/kaldi-common.h"
 #include "gmm/am-diag-gmm.h"
 #include "hmm/transition-model.h"
 #include "itf/decodable-itf.h"
 #include "nnet2/am-nnet.h"
 #include "nnet2/nnet-compute.h"
+#include <vector>
 
 namespace kaldi {
 namespace nnet2 {

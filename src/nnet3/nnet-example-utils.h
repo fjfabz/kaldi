@@ -20,9 +20,9 @@
 #ifndef KALDI_NNET3_NNET_EXAMPLE_UTILS_H_
 #define KALDI_NNET3_NNET_EXAMPLE_UTILS_H_
 
-#include "nnet3/nnet-example.h"
 #include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-compute.h"
+#include "nnet3/nnet-example.h"
 #include "util/kaldi-table.h"
 
 namespace kaldi {

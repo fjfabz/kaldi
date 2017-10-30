@@ -17,10 +17,10 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <set>
-#include <queue>
-#include "util/stl-utils.h"
 #include "tree/build-tree-utils.h"
+#include "util/stl-utils.h"
+#include <queue>
+#include <set>
 
 
 

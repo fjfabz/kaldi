@@ -23,14 +23,14 @@
 #define KALDI_ONLINE_ONLINE_FEAT_INPUT_H_
 
 #if !defined(_MSC_VER)
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <sys/types.h>
 #endif
 
-#include "online-audio-source.h"
 #include "feat/feature-functions.h"
+#include "online-audio-source.h"
 
 namespace kaldi {
 

@@ -20,9 +20,9 @@
 // limitations under the License.
 
 #include "feat/feature-mfcc.h"
-#include "online/online-feat-input.h"
 #include "online/online-decodable.h"
 #include "online/online-faster-decoder.h"
+#include "online/online-feat-input.h"
 #include "online/onlinebin-util.h"
 
 namespace kaldi {

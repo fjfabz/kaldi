@@ -22,8 +22,8 @@
 #define KALDI_FSTEXT_PRUNE_SPECIAL_INL_H_
 // Do not include this file directly.  It is included by prune-special.h
 
-#include "fstext/prune-special.h"
 #include "base/kaldi-error.h"
+#include "fstext/prune-special.h"
 
 namespace fst {
 

@@ -29,8 +29,8 @@
 #include <limits>
 #include <vector>
 
-#include "base/kaldi-types.h"
 #include "base/kaldi-common.h"
+#include "base/kaldi-types.h"
 
 
 #ifndef DBL_EPSILON

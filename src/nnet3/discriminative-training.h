@@ -24,15 +24,15 @@
 #define KALDI_NNET3_DISCRIMINATIVE_TRAINING_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "fstext/fstext-lib.h"
-#include "tree/context-dep.h"
-#include "lat/kaldi-lattice.h"
-#include "matrix/kaldi-matrix.h"
-#include "hmm/transition-model.h"
-#include "nnet3/discriminative-supervision.h"
-#include "lat/lattice-functions.h"
 #include "cudamatrix/cu-matrix-lib.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
+#include "lat/lattice-functions.h"
+#include "matrix/kaldi-matrix.h"
+#include "nnet3/discriminative-supervision.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace discriminative {

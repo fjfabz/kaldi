@@ -19,15 +19,15 @@
 
 
 #if HAVE_CUDA == 1
-#include <cuda_runtime_api.h>
 #include <cublas_v2.h>
+#include <cuda_runtime_api.h>
 #endif
 
-#include <algorithm>
 #include "base/timer.h"
 #include "cudamatrix/cu-block-matrix.h"
-#include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-device.h"
+#include "cudamatrix/cu-matrix.h"
+#include <algorithm>
 
 namespace kaldi {
 

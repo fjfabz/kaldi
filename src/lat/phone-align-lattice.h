@@ -19,14 +19,14 @@
 
 #ifndef KALDI_LAT_PHONE_ALIGN_LATTICE_H_
 #define KALDI_LAT_PHONE_ALIGN_LATTICE_H_
-#include <fst/fstlib.h>
 #include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

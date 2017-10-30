@@ -20,14 +20,14 @@
 #ifndef KALDI_NNET3_NNET_CHAIN_TRAINING_H_
 #define KALDI_NNET3_NNET_CHAIN_TRAINING_H_
 
-#include "nnet3/nnet-example.h"
+#include "chain/chain-den-graph.h"
+#include "chain/chain-training.h"
+#include "nnet3/nnet-chain-example.h"
 #include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-compute.h"
+#include "nnet3/nnet-example.h"
 #include "nnet3/nnet-optimize.h"
-#include "nnet3/nnet-chain-example.h"
 #include "nnet3/nnet-training.h"
-#include "chain/chain-training.h"
-#include "chain/chain-den-graph.h"
 
 namespace kaldi {
 namespace nnet3 {

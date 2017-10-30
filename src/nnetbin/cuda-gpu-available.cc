@@ -18,8 +18,8 @@
 // limitations under the License.
 
 #ifndef _MSC_VER
-  #include <unistd.h>
   #include <errno.h>
+  #include <unistd.h>
 #endif
 
 #include "base/kaldi-common.h"

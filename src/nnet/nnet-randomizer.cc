@@ -19,9 +19,9 @@
 
 #include "nnet/nnet-randomizer.h"
 
-#include <vector>
 #include <algorithm>
 #include <utility>
+#include <vector>
 
 namespace kaldi {
 namespace nnet1 {

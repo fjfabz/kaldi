@@ -26,9 +26,9 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "tree/cluster-utils.h"
 #include "gmm/am-diag-gmm.h"
 #include "transform/transform-common.h"
+#include "tree/cluster-utils.h"
 
 namespace kaldi {
 

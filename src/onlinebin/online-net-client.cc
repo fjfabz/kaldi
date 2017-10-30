@@ -20,8 +20,8 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <netdb.h>
 #include <fcntl.h>
+#include <netdb.h>
 
 #include "feat/feature-mfcc.h"
 #include "online/online-audio-source.h"

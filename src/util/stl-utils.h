@@ -25,12 +25,12 @@
 using std::unordered_map;
 using std::unordered_set;
 
+#include "base/kaldi-common.h"
 #include <algorithm>
 #include <map>
 #include <set>
 #include <string>
 #include <vector>
-#include "base/kaldi-common.h"
 
 namespace kaldi {
 

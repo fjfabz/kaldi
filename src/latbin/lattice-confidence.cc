@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
+#include "lat/confidence.h"
 #include "lat/kaldi-lattice.h"
 #include "lat/lattice-functions.h"
-#include "lat/confidence.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

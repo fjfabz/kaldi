@@ -24,9 +24,9 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "transform/transform-common.h"
 #include "transform/fmllr-diag-gmm.h"
+#include "transform/transform-common.h"
+#include "util/common-utils.h"
 
 
 namespace kaldi {

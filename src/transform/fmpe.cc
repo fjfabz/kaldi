@@ -19,10 +19,10 @@
 
 
 #include "transform/fmpe.h"
-#include "util/text-utils.h"
-#include "gmm/diag-gmm-normal.h"
 #include "gmm/am-diag-gmm.h"
+#include "gmm/diag-gmm-normal.h"
 #include "hmm/transition-model.h"
+#include "util/text-utils.h"
 
 namespace kaldi {
 

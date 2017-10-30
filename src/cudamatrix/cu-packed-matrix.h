@@ -25,15 +25,15 @@
 
 #include <sstream>
 
-#include "cudamatrix/cu-common.h"
-#include "cudamatrix/cu-value.h"
-#include "matrix/matrix-common.h"
-#include "matrix/kaldi-matrix.h"
-#include "matrix/packed-matrix.h"
-#include "matrix/sp-matrix.h"
 #include "cudamatrix/cu-array.h"
+#include "cudamatrix/cu-common.h"
 #include "cudamatrix/cu-math.h"
 #include "cudamatrix/cu-matrix.h"
+#include "cudamatrix/cu-value.h"
+#include "matrix/kaldi-matrix.h"
+#include "matrix/matrix-common.h"
+#include "matrix/packed-matrix.h"
+#include "matrix/sp-matrix.h"
 
 namespace kaldi {
 

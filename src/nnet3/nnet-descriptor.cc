@@ -17,11 +17,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include "nnet3/nnet-descriptor.h"
+#include "nnet3/nnet-computation-graph.h"
+#include "nnet3/nnet-nnet.h"
 #include <iterator>
 #include <sstream>
-#include "nnet3/nnet-descriptor.h"
-#include "nnet3/nnet-nnet.h"
-#include "nnet3/nnet-computation-graph.h"
 
 namespace kaldi {
 namespace nnet3 {

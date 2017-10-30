@@ -21,12 +21,12 @@
 
 #ifndef KALDI_UTIL_HASH_LIST_H_
 #define KALDI_UTIL_HASH_LIST_H_
-#include <vector>
-#include <set>
-#include <algorithm>
-#include <limits>
-#include <cassert>
 #include "util/stl-utils.h"
+#include <algorithm>
+#include <cassert>
+#include <limits>
+#include <set>
+#include <vector>
 
 
 /* This header provides utilities for a structure that's used in a decoder (but

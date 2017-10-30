@@ -25,9 +25,9 @@
 #include <sstream>
 #include <vector>
 
-#include "feat/wave-reader.h"
 #include "base/kaldi-error.h"
 #include "base/kaldi-utils.h"
+#include "feat/wave-reader.h"
 
 namespace kaldi {
 

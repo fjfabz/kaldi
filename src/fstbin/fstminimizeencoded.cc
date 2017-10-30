@@ -19,13 +19,13 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
-#include "util/parse-options.h"
-#include "util/text-utils.h"
 #include "fst/fstlib.h"
 #include "fstext/determinize-star.h"
 #include "fstext/fstext-utils.h"
 #include "fstext/kaldi-fst-io.h"
+#include "util/kaldi-io.h"
+#include "util/parse-options.h"
+#include "util/text-utils.h"
 
 /* some test  examples:
  ( echo "0 0 0 0"; echo "0 0" ) | fstcompile | fstminimizeencoded | fstprint

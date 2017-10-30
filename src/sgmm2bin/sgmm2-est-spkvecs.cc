@@ -25,11 +25,11 @@ using std::string;
 using std::vector;
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "hmm/posterior.h"
+#include "hmm/transition-model.h"
 #include "sgmm2/am-sgmm2.h"
 #include "sgmm2/estimate-am-sgmm2.h"
-#include "hmm/transition-model.h"
-#include "hmm/posterior.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

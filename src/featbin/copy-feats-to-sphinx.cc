@@ -18,10 +18,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/kaldi-matrix.h"
 #include "matrix/matrix-common.h"
 #include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 #include <sys/stat.h>
 

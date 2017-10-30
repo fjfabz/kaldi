@@ -23,8 +23,8 @@
 #include <sstream>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "nnet2/nnet-example.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
   

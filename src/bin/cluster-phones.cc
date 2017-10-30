@@ -18,12 +18,11 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
-#include "tree/build-tree.h"
 #include "tree/build-tree-utils.h"
-#include "tree/context-dep.h"
+#include "tree/build-tree.h"
 #include "tree/clusterable-classes.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 #include "util/text-utils.h"
 
 

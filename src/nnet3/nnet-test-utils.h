@@ -20,9 +20,9 @@
 #ifndef KALDI_NNET3_NNET_TEST_UTILS_H_
 #define KALDI_NNET3_NNET_TEST_UTILS_H_
 
+#include "nnet3/nnet-example.h"
 #include "nnet3/nnet-nnet.h"
 #include "nnet3/nnet-utils.h"
-#include "nnet3/nnet-example.h"
 
 namespace kaldi {
 namespace nnet3 {

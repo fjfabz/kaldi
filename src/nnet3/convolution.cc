@@ -17,12 +17,12 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include "nnet3/convolution.h"
+#include "nnet3/nnet-compile-utils.h"
+#include "nnet3/nnet-parse.h"
+#include <iomanip>
 #include <iterator>
 #include <sstream>
-#include <iomanip>
-#include "nnet3/convolution.h"
-#include "nnet3/nnet-parse.h"
-#include "nnet3/nnet-compile-utils.h"
 
 namespace kaldi {
 namespace nnet3 {

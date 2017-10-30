@@ -24,8 +24,8 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
 #include "itf/options-itf.h"
+#include "matrix/matrix-lib.h"
 
 namespace kaldi {
 

@@ -21,9 +21,9 @@
 #ifndef KALDI_TREE_CLUSTERABLE_CLASSES_H_
 #define KALDI_TREE_CLUSTERABLE_CLASSES_H_ 1
 
-#include <string>
 #include "itf/clusterable-itf.h"
 #include "matrix/matrix-lib.h"
+#include <string>
 
 namespace kaldi {
 

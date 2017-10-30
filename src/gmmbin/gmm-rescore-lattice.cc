@@ -19,14 +19,14 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "util/stl-utils.h"
-#include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
 #include "fstext/fstext-lib.h"
+#include "gmm/am-diag-gmm.h"
+#include "gmm/decodable-am-diag-gmm.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
 #include "lat/lattice-functions.h"
-#include "gmm/decodable-am-diag-gmm.h"
+#include "util/common-utils.h"
+#include "util/stl-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

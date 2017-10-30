@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "nnet3/nnet-discriminative-diagnostics.h"
-#include "nnet3/nnet-utils.h"
 #include "nnet3/discriminative-training.h"
+#include "nnet3/nnet-utils.h"
 
 namespace kaldi {
 namespace nnet3 {

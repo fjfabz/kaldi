@@ -19,11 +19,11 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/diag-gmm.h"
-#include "tree/context-dep.h"
 #include "hmm/transition-model.h"
 #include "transform/mllt.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

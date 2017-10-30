@@ -21,11 +21,11 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "util/parse-options.h"
-#include "tree/context-dep.h"
-#include "util/edit-distance.h"
 #include "base/kaldi-math.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
+#include "util/edit-distance.h"
+#include "util/parse-options.h"
 
 namespace kaldi {
 

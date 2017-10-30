@@ -32,9 +32,9 @@
 */
 
 
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
 #include "util/const-integer-set.h"
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 namespace fst {
 

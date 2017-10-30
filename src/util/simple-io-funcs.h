@@ -19,9 +19,9 @@
 #ifndef KALDI_UTIL_SIMPLE_IO_FUNCS_H_
 #define KALDI_UTIL_SIMPLE_IO_FUNCS_H_
 
+#include "util/kaldi-io.h"
 #include <string>
 #include <vector>
-#include "util/kaldi-io.h"
 
 // This header contains some utilities for reading some common, simple text
 // formats:integers in files, one per line, and integers in files, possibly

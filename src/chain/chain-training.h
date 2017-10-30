@@ -22,18 +22,18 @@
 #ifndef KALDI_CHAIN_CHAIN_TRAINING_H_
 #define KALDI_CHAIN_CHAIN_TRAINING_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "fstext/fstext-lib.h"
-#include "tree/context-dep.h"
-#include "lat/kaldi-lattice.h"
-#include "matrix/kaldi-matrix.h"
-#include "hmm/transition-model.h"
 #include "chain/chain-den-graph.h"
 #include "chain/chain-supervision.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
+#include "lat/kaldi-lattice.h"
+#include "matrix/kaldi-matrix.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace chain {

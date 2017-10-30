@@ -21,10 +21,10 @@
 #ifndef KALDI_GMM_INDIRECT_DIFF_DIAG_GMM_H_
 #define KALDI_GMM_INDIRECT_DIFF_DIAG_GMM_H_ 1
 
-#include "gmm/diag-gmm.h"
 #include "gmm/diag-gmm-normal.h"
-#include "gmm/mle-diag-gmm.h"
+#include "gmm/diag-gmm.h"
 #include "gmm/mle-am-diag-gmm.h"
+#include "gmm/mle-diag-gmm.h"
 #include "gmm/model-common.h"
 
 namespace kaldi {

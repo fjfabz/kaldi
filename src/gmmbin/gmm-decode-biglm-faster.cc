@@ -19,13 +19,13 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/biglm-faster-decoder.h"
-#include "gmm/decodable-am-diag-gmm.h"
 #include "base/timer.h"
+#include "decoder/biglm-faster-decoder.h"
+#include "fstext/fstext-lib.h"
+#include "gmm/am-diag-gmm.h"
+#include "gmm/decodable-am-diag-gmm.h"
+#include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

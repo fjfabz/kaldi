@@ -21,18 +21,18 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "gmm/am-diag-gmm.h"
-#include "tree/context-dep.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/decoder-wrappers.h"
-#include "gmm/decodable-am-diag-gmm.h"
 #include "base/timer.h"
+#include "decoder/decoder-wrappers.h"
+#include "feat/feature-functions.h"  // feature reversal
+#include "fstext/fstext-lib.h"
+#include "gmm/am-diag-gmm.h"
+#include "gmm/decodable-am-diag-gmm.h"
+#include "hmm/transition-model.h"
+#include "transform/decodable-am-diag-gmm-regtree.h"
 #include "transform/regression-tree.h"
 #include "transform/regtree-fmllr-diag-gmm.h"
-#include "transform/decodable-am-diag-gmm-regtree.h"
-#include "feat/feature-functions.h"  // feature reversal
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

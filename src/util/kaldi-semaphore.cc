@@ -20,8 +20,8 @@
 
 
 
-#include "base/kaldi-error.h"
 #include "util/kaldi-semaphore.h"
+#include "base/kaldi-error.h"
 
 namespace kaldi {
 

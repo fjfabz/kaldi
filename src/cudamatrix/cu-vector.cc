@@ -19,22 +19,21 @@
 // limitations under the License.
 
 #if HAVE_CUDA == 1
-#include <cuda_runtime_api.h>
 #include <cublas_v2.h>
+#include <cuda_runtime_api.h>
 #endif
 
 #include "base/timer.h"
 #include "cudamatrix/cu-common.h"
-#include "cudamatrix/cu-vector.h"
 #include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-kernels.h"
 #include "cudamatrix/cu-math.h"
-#include "cudamatrix/cu-vector.h"
 #include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-rand.h"
-#include "cudamatrix/cu-tp-matrix.h"
 #include "cudamatrix/cu-sp-matrix.h"
 #include "cudamatrix/cu-sparse-matrix.h"
+#include "cudamatrix/cu-tp-matrix.h"
+#include "cudamatrix/cu-vector.h"
 #include "cudamatrix/cublas-wrappers.h"
 
 namespace kaldi {

@@ -20,9 +20,9 @@
 #define KALDI_DECODER_TRAINING_GRAPH_COMPILER_H_
 
 #include "base/kaldi-common.h"
-#include "hmm/transition-model.h"
 #include "fst/fstlib.h"
 #include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
 
 
 namespace kaldi {

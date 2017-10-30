@@ -17,13 +17,13 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <sstream>
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "hmm/transition-model.h"
 #include "hmm/posterior.h"
-#include "nnet3/nnet-example.h"
+#include "hmm/transition-model.h"
 #include "nnet3/nnet-example-utils.h"
+#include "nnet3/nnet-example.h"
+#include "util/common-utils.h"
+#include <sstream>
 
 namespace kaldi {
 

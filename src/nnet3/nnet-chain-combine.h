@@ -20,12 +20,12 @@
 #ifndef KALDI_NNET3_NNET_CHAIN_COMBINE_H_
 #define KALDI_NNET3_NNET_CHAIN_COMBINE_H_
 
-#include "nnet3/nnet-utils.h"
-#include "nnet3/nnet-compute.h"
-#include "util/parse-options.h"
 #include "itf/options-itf.h"
-#include "nnet3/nnet-combine.h"
 #include "nnet3/nnet-chain-diagnostics.h"
+#include "nnet3/nnet-combine.h"
+#include "nnet3/nnet-compute.h"
+#include "nnet3/nnet-utils.h"
+#include "util/parse-options.h"
 
 
 namespace kaldi {

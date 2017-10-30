@@ -20,12 +20,12 @@
 #ifndef KALDI_TREE_EVENT_MAP_H_
 #define KALDI_TREE_EVENT_MAP_H_
 
-#include <vector>
-#include <map>
-#include <algorithm>
 #include "base/kaldi-common.h"
-#include "util/stl-utils.h"
 #include "util/const-integer-set.h"
+#include "util/stl-utils.h"
+#include <algorithm>
+#include <map>
+#include <vector>
 
 namespace kaldi {
 

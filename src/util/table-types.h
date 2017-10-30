@@ -21,9 +21,9 @@
 #ifndef KALDI_UTIL_TABLE_TYPES_H_
 #define KALDI_UTIL_TABLE_TYPES_H_
 #include "base/kaldi-common.h"
-#include "util/kaldi-table.h"
-#include "util/kaldi-holder.h"
 #include "matrix/matrix-lib.h"
+#include "util/kaldi-holder.h"
+#include "util/kaldi-table.h"
 
 namespace kaldi {
 

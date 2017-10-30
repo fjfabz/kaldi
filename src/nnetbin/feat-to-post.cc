@@ -19,8 +19,8 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/posterior.h"
+#include "util/common-utils.h"
 
 /** @brief Converts features into posterior format, which is the generic
  *  format of NN training targets in 'nnet1'. */

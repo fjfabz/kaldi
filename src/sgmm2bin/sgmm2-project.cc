@@ -19,10 +19,10 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "util/kaldi-thread.h"
 #include "hmm/transition-model.h"
 #include "sgmm2/am-sgmm2-project.h"
+#include "util/common-utils.h"
+#include "util/kaldi-thread.h"
 
 int main(int argc, char *argv[]) {
   try {

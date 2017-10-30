@@ -21,18 +21,18 @@
 #ifndef KALDI_ONLINE2_ONLINE_IVECTOR_FEATURE_H_
 #define KALDI_ONLINE2_ONLINE_IVECTOR_FEATURE_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
+#include "base/kaldi-error.h"
+#include "decoder/lattice-faster-online-decoder.h"
+#include "feat/online-feature.h"
+#include "gmm/diag-gmm.h"
+#include "itf/online-feature-itf.h"
+#include "ivector/ivector-extractor.h"
 #include "matrix/matrix-lib.h"
 #include "util/common-utils.h"
-#include "base/kaldi-error.h"
-#include "itf/online-feature-itf.h"
-#include "gmm/diag-gmm.h"
-#include "feat/online-feature.h"
-#include "ivector/ivector-extractor.h"
-#include "decoder/lattice-faster-online-decoder.h"
 
 namespace kaldi {
 /// @addtogroup  onlinefeat OnlineFeatureExtraction

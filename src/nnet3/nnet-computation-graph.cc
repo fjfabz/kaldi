@@ -17,9 +17,9 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <deque>
 #include "nnet3/nnet-computation-graph.h"
 #include "nnet3/nnet-graph.h"
+#include <deque>
 
 namespace kaldi {
 namespace nnet3 {

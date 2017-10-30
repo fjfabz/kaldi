@@ -20,8 +20,8 @@
 #ifndef KALDI_SGMM2_AM_SGMM2_PROJECT_H_
 #define KALDI_SGMM2_AM_SGMM2_PROJECT_H_
 
-#include <vector>
 #include <queue>
+#include <vector>
 
 #include "sgmm2/am-sgmm2.h"
 

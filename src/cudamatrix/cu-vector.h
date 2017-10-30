@@ -26,10 +26,10 @@
 #ifndef KALDI_CUDAMATRIX_CU_VECTOR_H_
 #define KALDI_CUDAMATRIX_CU_VECTOR_H_
 
-#include "matrix/kaldi-vector.h"
 #include "cudamatrix/cu-common.h"
-#include "cudamatrix/cu-value.h"
 #include "cudamatrix/cu-math.h"
+#include "cudamatrix/cu-value.h"
+#include "matrix/kaldi-vector.h"
 
 namespace kaldi {
 

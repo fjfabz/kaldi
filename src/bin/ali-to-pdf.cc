@@ -20,11 +20,11 @@
 /** @brief Converts alignments (containing transition-ids) to pdf-ids, zero-based.
 */
 #include "base/kaldi-common.h"
-#include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
-#include "hmm/hmm-utils.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
+#include "gmm/am-diag-gmm.h"
+#include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   using namespace kaldi;

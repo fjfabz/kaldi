@@ -20,9 +20,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "feat/pitch-functions.h"
 #include "feat/wave-reader.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

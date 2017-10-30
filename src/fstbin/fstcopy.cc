@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
-#include "fstext/table-matcher.h"
 #include "fstext/fstext-utils.h"
 #include "fstext/kaldi-fst-io.h"
+#include "fstext/table-matcher.h"
+#include "util/common-utils.h"
 
 /*
 Test:

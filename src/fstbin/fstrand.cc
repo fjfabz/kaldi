@@ -19,13 +19,13 @@
 
 
 #include "base/kaldi-common.h"
+#include "fstext/fstext-utils.h"
+#include "fstext/kaldi-fst-io.h"
+#include "fstext/rand-fst.h"
+#include "time.h"
 #include "util/kaldi-io.h"
 #include "util/parse-options.h"
 #include "util/text-utils.h"
-#include "fstext/rand-fst.h"
-#include "time.h"
-#include "fstext/fstext-utils.h"
-#include "fstext/kaldi-fst-io.h"
 
 int main(int argc, char *argv[]) {
   try {

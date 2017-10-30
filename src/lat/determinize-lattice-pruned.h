@@ -21,16 +21,16 @@
 
 #ifndef KALDI_LAT_DETERMINIZE_LATTICE_PRUNED_H_
 #define KALDI_LAT_DETERMINIZE_LATTICE_PRUNED_H_
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
-#include <algorithm>
-#include <map>
-#include <set>
-#include <vector>
 #include "fstext/lattice-weight.h"
 #include "hmm/transition-model.h"
 #include "itf/options-itf.h"
 #include "lat/kaldi-lattice.h"
+#include <algorithm>
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
+#include <map>
+#include <set>
+#include <vector>
 
 namespace fst {
 

@@ -21,12 +21,12 @@
 #ifndef KALDI_ONLINE2_ONLINE_TIMING_H_
 #define KALDI_ONLINE2_ONLINE_TIMING_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "base/timer.h"
 #include "base/kaldi-error.h"
+#include "base/timer.h"
 
 namespace kaldi {
 /// @addtogroup  onlinedecoding OnlineDecoding

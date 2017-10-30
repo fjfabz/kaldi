@@ -22,8 +22,8 @@
 #include <limits>
 #include <string>
 
-#include "matrix/sparse-matrix.h"
 #include "matrix/kaldi-matrix.h"
+#include "matrix/sparse-matrix.h"
 
 namespace kaldi {
 

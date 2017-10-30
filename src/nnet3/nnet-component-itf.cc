@@ -18,16 +18,16 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include "nnet3/nnet-component-itf.h"
+#include "nnet3/nnet-attention-component.h"
+#include "nnet3/nnet-computation-graph.h"
+#include "nnet3/nnet-convolutional-component.h"
+#include "nnet3/nnet-general-component.h"
+#include "nnet3/nnet-parse.h"
+#include "nnet3/nnet-simple-component.h"
+#include <iomanip>
 #include <iterator>
 #include <sstream>
-#include <iomanip>
-#include "nnet3/nnet-component-itf.h"
-#include "nnet3/nnet-simple-component.h"
-#include "nnet3/nnet-general-component.h"
-#include "nnet3/nnet-convolutional-component.h"
-#include "nnet3/nnet-attention-component.h"
-#include "nnet3/nnet-parse.h"
-#include "nnet3/nnet-computation-graph.h"
 
 
 

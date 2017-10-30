@@ -17,11 +17,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include "base/kaldi-common.h"
+#include "feat/online-feature.h"
+#include "util/common-utils.h"
 #include <string>
 #include <vector>
-#include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "feat/online-feature.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -22,8 +22,8 @@
 #define KALDI_FSTEXT_PRUNE_SPECIAL_H_
 
 #include "fst/fstlib.h"
-#include "fstext/lattice-weight.h"
 #include "fstext/factor.h"
+#include "fstext/lattice-weight.h"
 
 namespace fst {
 

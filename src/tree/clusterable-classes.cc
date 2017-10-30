@@ -17,11 +17,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <algorithm>
-#include <string>
+#include "tree/clusterable-classes.h"
 #include "base/kaldi-math.h"
 #include "itf/clusterable-itf.h"
-#include "tree/clusterable-classes.h"
+#include <algorithm>
+#include <string>
 
 namespace kaldi {
 

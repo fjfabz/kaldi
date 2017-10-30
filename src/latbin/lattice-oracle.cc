@@ -20,9 +20,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "lat/kaldi-lattice.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

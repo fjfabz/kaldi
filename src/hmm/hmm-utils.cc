@@ -19,9 +19,9 @@
 
 #include <vector>
 
-#include "hmm/hmm-utils.h"
 #include "fst/fstlib.h"
 #include "fstext/fstext-lib.h"
+#include "hmm/hmm-utils.h"
 
 namespace kaldi {
 

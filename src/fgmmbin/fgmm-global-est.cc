@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/full-gmm.h"
 #include "gmm/mle-full-gmm.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

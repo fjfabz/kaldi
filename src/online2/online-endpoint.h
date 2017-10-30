@@ -21,20 +21,20 @@
 #ifndef KALDI_ONLINE2_ONLINE_ENDPOINT_H_
 #define KALDI_ONLINE2_ONLINE_ENDPOINT_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
+#include "decoder/lattice-faster-online-decoder.h"
 #include "feat/feature-functions.h"
 #include "feat/feature-mfcc.h"
 #include "feat/feature-plp.h"
+#include "hmm/transition-model.h"
 #include "itf/online-feature-itf.h"
 #include "lat/kaldi-lattice.h"
-#include "hmm/transition-model.h"
-#include "decoder/lattice-faster-online-decoder.h"
+#include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 /// @addtogroup  onlinedecoding OnlineDecoding

@@ -24,15 +24,15 @@
 #ifndef KALDI_LAT_LATTICE_FUNCTIONS_H_
 #define KALDI_LAT_LATTICE_FUNCTIONS_H_
 
-#include <vector>
 #include <map>
+#include <vector>
 
 #include "base/kaldi-common.h"
-#include "hmm/posterior.h"
 #include "fstext/fstext-lib.h"
+#include "hmm/posterior.h"
 #include "hmm/transition-model.h"
-#include "lat/kaldi-lattice.h"
 #include "itf/decodable-itf.h"
+#include "lat/kaldi-lattice.h"
 
 namespace kaldi {
 

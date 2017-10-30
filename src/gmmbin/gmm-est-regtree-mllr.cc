@@ -24,11 +24,11 @@ using std::string;
 using std::vector;
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
+#include "hmm/posterior.h"
 #include "hmm/transition-model.h"
 #include "transform/regtree-mllr-diag-gmm.h"
-#include "hmm/posterior.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -17,16 +17,16 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "nnet/nnet-trnopts.h"
-#include "nnet/nnet-rbm.h"
-#include "nnet/nnet-nnet.h"
-#include "nnet/nnet-loss.h"
-#include "nnet/nnet-randomizer.h"
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "base/timer.h"
 #include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-rand.h"
+#include "nnet/nnet-loss.h"
+#include "nnet/nnet-nnet.h"
+#include "nnet/nnet-randomizer.h"
+#include "nnet/nnet-rbm.h"
+#include "nnet/nnet-trnopts.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

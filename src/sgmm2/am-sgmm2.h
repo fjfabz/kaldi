@@ -27,13 +27,13 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
-#include "gmm/model-common.h"
 #include "gmm/diag-gmm.h"
 #include "gmm/full-gmm.h"
+#include "gmm/model-common.h"
 #include "itf/options-itf.h"
-#include "util/table-types.h"
+#include "matrix/matrix-lib.h"
 #include "util/kaldi-thread.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 /*

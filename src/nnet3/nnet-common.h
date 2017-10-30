@@ -22,10 +22,10 @@
 #define KALDI_NNET3_NNET_COMMON_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
+#include "cudamatrix/cu-matrix-lib.h"
 #include "itf/options-itf.h"
 #include "matrix/matrix-lib.h"
-#include "cudamatrix/cu-matrix-lib.h"
+#include "util/common-utils.h"
 
 #include <iostream>
 

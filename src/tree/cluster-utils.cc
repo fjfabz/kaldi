@@ -24,8 +24,8 @@
 using std::vector;
 
 #include "base/kaldi-math.h"
-#include "util/stl-utils.h"
 #include "tree/cluster-utils.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

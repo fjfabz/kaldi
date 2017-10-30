@@ -20,11 +20,11 @@
 /** @brief Sums the pdf vectors to counts, this is used to obtain prior counts for hybrid decoding.
 */
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
+#include "util/common-utils.h"
 
-#include <iomanip>
 #include <algorithm>
+#include <iomanip>
 #include <numeric>
 
 int main(int argc, char *argv[]) {

@@ -20,9 +20,9 @@
 #ifndef KALDI_NNET2_NNET_COMPUTE_DISCRIMINATIVE_H_
 #define KALDI_NNET2_NNET_COMPUTE_DISCRIMINATIVE_H_
 
+#include "hmm/transition-model.h"
 #include "nnet2/am-nnet.h"
 #include "nnet2/nnet-example.h"
-#include "hmm/transition-model.h"
 
 namespace kaldi {
 namespace nnet2 {

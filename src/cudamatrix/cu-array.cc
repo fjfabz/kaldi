@@ -26,8 +26,8 @@
 #include "base/timer.h"
 #include "cudamatrix/cu-common.h"
 #include "cudamatrix/cu-device.h"
-#include "cudamatrix/cu-matrixdim.h"
 #include "cudamatrix/cu-kernels.h"
+#include "cudamatrix/cu-matrixdim.h"
 
 #include "cudamatrix/cu-array.h"
 

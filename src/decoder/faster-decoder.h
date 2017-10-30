@@ -21,12 +21,12 @@
 #ifndef KALDI_DECODER_FASTER_DECODER_H_
 #define KALDI_DECODER_FASTER_DECODER_H_
 
-#include "util/stl-utils.h"
-#include "itf/options-itf.h"
-#include "util/hash-list.h"
 #include "fst/fstlib.h"
 #include "itf/decodable-itf.h"
+#include "itf/options-itf.h"
 #include "lat/kaldi-lattice.h" // for CompactLatticeArc
+#include "util/hash-list.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

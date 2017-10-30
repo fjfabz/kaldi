@@ -22,8 +22,8 @@
 #ifndef KALDI_THREAD_KALDI_SEMAPHORE_H_
 #define KALDI_THREAD_KALDI_SEMAPHORE_H_ 1
 
-#include <mutex>
 #include <condition_variable>
+#include <mutex>
 
 namespace kaldi {
 

@@ -26,11 +26,11 @@ using std::vector;
 #include <string>
 using std::string;
 
-#include "transform/fmllr-diag-gmm.h"
 #include "gmm/am-diag-gmm.h"
-#include "gmm/mle-diag-gmm.h"
 #include "gmm/mle-am-diag-gmm.h"
+#include "gmm/mle-diag-gmm.h"
 #include "transform/basis-fmllr-diag-gmm.h"
+#include "transform/fmllr-diag-gmm.h"
 
 namespace kaldi {
 

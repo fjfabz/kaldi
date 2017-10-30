@@ -21,8 +21,8 @@
 #include <algorithm>
 #include <vector>
 
-#include "matrix/matrix-lib.h"
 #include "gmm/model-test-common.h"
+#include "matrix/matrix-lib.h"
 
 namespace kaldi {
 namespace unittest {

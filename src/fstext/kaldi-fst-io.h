@@ -22,10 +22,10 @@
 #ifndef KALDI_FSTEXT_KALDI_FST_IO_H_
 #define KALDI_FSTEXT_KALDI_FST_IO_H_
 
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
-#include <fst/script/print-impl.h>
 #include "base/kaldi-common.h"
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
+#include <fst/script/print-impl.h>
 
 // Some functions for writing Fsts.
 // I/O for FSTs is a bit of a mess, and not very well integrated with Kaldi's

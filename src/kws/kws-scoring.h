@@ -19,10 +19,10 @@
 #ifndef KALDI_KWS_KWS_SCORING_H_
 #define KALDI_KWS_KWS_SCORING_H_
 
-#include <vector>
 #include <list>
-#include <utility>
 #include <string>
+#include <utility>
+#include <vector>
 
 #include "util/common-utils.h"
 #include "util/stl-utils.h"

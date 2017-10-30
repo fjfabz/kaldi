@@ -23,18 +23,18 @@
 
 #include <iostream>
 #if !defined(_MSC_VER)
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netdb.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <sys/types.h>
 #include <unistd.h>
 #endif
 
-#include "util/parse-options.h"
-#include "util/kaldi-table.h"
 #include "feat/wave-reader.h"
 #include "online/online-audio-source.h"
+#include "util/kaldi-table.h"
+#include "util/parse-options.h"
 
 namespace kaldi {
 

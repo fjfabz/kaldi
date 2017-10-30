@@ -19,9 +19,9 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
 #include "ivector/ivector-extractor.h"
+#include "util/common-utils.h"
 #include "util/kaldi-thread.h"
 
 

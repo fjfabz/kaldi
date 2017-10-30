@@ -18,12 +18,12 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
-#include "util/text-utils.h"
 #include "gmm/mle-am-diag-gmm.h"
-#include "tree/context-dep.h"
 #include "hmm/transition-model.h"
 #include "transform/regression-tree.h"
+#include "tree/context-dep.h"
+#include "util/kaldi-io.h"
+#include "util/text-utils.h"
 
 
 int main(int argc, char *argv[]) {

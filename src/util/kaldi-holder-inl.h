@@ -22,13 +22,13 @@
 #ifndef KALDI_UTIL_KALDI_HOLDER_INL_H_
 #define KALDI_UTIL_KALDI_HOLDER_INL_H_
 
-#include <algorithm>
-#include <vector>
-#include <utility>
-#include <string>
+#include "matrix/kaldi-matrix.h"
 #include "util/kaldi-io.h"
 #include "util/text-utils.h"
-#include "matrix/kaldi-matrix.h"
+#include <algorithm>
+#include <string>
+#include <utility>
+#include <vector>
 
 namespace kaldi {
 

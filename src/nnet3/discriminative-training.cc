@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "nnet3/discriminative-training.h"
-#include "lat/lattice-functions.h"
 #include "cudamatrix/cu-matrix.h"
+#include "lat/lattice-functions.h"
 
 namespace kaldi {
 namespace discriminative {

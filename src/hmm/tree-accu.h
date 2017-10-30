@@ -20,12 +20,12 @@
 #ifndef KALDI_HMM_TREE_ACCU_H_
 #define KALDI_HMM_TREE_ACCU_H_
 
-#include <cctype>  // For isspace.
-#include <limits>
 #include "base/kaldi-common.h"
 #include "hmm/transition-model.h"
-#include "tree/clusterable-classes.h"
 #include "tree/build-tree-questions.h" // needed for this typedef:
+#include "tree/clusterable-classes.h"
+#include <cctype>  // For isspace.
+#include <limits>
 // typedef std::vector<std::pair<EventVector, Clusterable*> > BuildTreeStatsType;
 
 namespace kaldi {

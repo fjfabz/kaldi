@@ -18,18 +18,18 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "nnet/nnet-trnopts.h"
-#include "nnet/nnet-nnet.h"
 #include "nnet/nnet-loss.h"
 #include "nnet/nnet-matrix-buffer.h"
+#include "nnet/nnet-nnet.h"
+#include "nnet/nnet-trnopts.h"
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "base/timer.h"
 #include "cudamatrix/cu-device.h"
+#include "util/common-utils.h"
 
-#include <numeric>
 #include <algorithm>
+#include <numeric>
 
 int main(int argc, char *argv[]) {
   using namespace kaldi;

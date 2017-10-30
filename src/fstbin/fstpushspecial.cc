@@ -19,13 +19,13 @@
 
 
 #include "base/kaldi-common.h"
+#include "fst/fstlib.h"
+#include "fstext/fstext-utils.h"
+#include "fstext/kaldi-fst-io.h"
+#include "fstext/push-special.h"
 #include "util/kaldi-io.h"
 #include "util/parse-options.h"
 #include "util/text-utils.h"
-#include "fst/fstlib.h"
-#include "fstext/fstext-utils.h"
-#include "fstext/push-special.h"
-#include "fstext/kaldi-fst-io.h"
 
 int main(int argc, char *argv[]) {
   try {

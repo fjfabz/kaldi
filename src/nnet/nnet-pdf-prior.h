@@ -24,10 +24,10 @@
 #include <string>
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "matrix/matrix-lib.h"
 #include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-vector.h"
+#include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 namespace nnet1 {

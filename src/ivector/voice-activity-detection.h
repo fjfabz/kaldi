@@ -26,9 +26,9 @@
 #include <string>
 #include <vector>
 
+#include "base/kaldi-error.h"
 #include "matrix/matrix-lib.h"
 #include "util/common-utils.h"
-#include "base/kaldi-error.h"
 
 namespace kaldi {
 

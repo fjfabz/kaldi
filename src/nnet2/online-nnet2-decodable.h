@@ -21,11 +21,11 @@
 #ifndef KALDI_NNET2_ONLINE_NNET2_DECODABLE_H_
 #define KALDI_NNET2_ONLINE_NNET2_DECODABLE_H_
 
-#include "itf/online-feature-itf.h"
+#include "hmm/transition-model.h"
 #include "itf/decodable-itf.h"
+#include "itf/online-feature-itf.h"
 #include "nnet2/am-nnet.h"
 #include "nnet2/nnet-compute.h"
-#include "hmm/transition-model.h"
 
 namespace kaldi {
 namespace nnet2 {

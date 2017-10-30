@@ -20,11 +20,11 @@
 #ifndef KALDI_TREE_CONTEXT_DEP_H_
 #define KALDI_TREE_CONTEXT_DEP_H_
 
-#include "util/stl-utils.h"
 #include "itf/context-dep-itf.h"
-#include "tree/event-map.h"
 #include "matrix/matrix-lib.h"
 #include "tree/cluster-utils.h"
+#include "tree/event-map.h"
+#include "util/stl-utils.h"
 
 /*
   This header provides the declarations for the class ContextDependency, which inherits

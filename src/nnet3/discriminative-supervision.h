@@ -21,10 +21,10 @@
 #ifndef KALDI_NNET3_DISCRIMINATIVE_SUPERVISION_H
 #define KALDI_NNET3_DISCRIMINATIVE_SUPERVISION_H
 
-#include "util/table-types.h"
 #include "hmm/posterior.h"
 #include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
+#include "util/table-types.h"
 
 namespace kaldi {
 namespace discriminative {

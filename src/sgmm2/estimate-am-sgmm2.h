@@ -27,9 +27,9 @@
 #include <string>
 #include <vector>
 
-#include "sgmm2/am-sgmm2.h"
 #include "gmm/model-common.h"
 #include "itf/options-itf.h"
+#include "sgmm2/am-sgmm2.h"
 #include "util/kaldi-thread.h"
 
 namespace kaldi {

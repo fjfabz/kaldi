@@ -19,9 +19,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
 #include "hmm/transition-model.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

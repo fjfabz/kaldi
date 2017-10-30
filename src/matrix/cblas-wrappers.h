@@ -21,11 +21,11 @@
 #define KALDI_MATRIX_CBLAS_WRAPPERS_H_ 1
 
 
-#include <limits>
-#include "matrix/sp-matrix.h"
-#include "matrix/kaldi-vector.h"
 #include "matrix/kaldi-matrix.h"
+#include "matrix/kaldi-vector.h"
 #include "matrix/matrix-functions.h"
+#include "matrix/sp-matrix.h"
+#include <limits>
 
 // Do not include this file directly.  It is to be included
 // by .cc files in this directory.

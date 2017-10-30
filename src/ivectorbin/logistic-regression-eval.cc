@@ -19,8 +19,8 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "ivector/logistic-regression.h"
+#include "util/common-utils.h"
 
 using namespace kaldi;
 

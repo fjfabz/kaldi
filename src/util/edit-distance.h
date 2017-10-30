@@ -20,14 +20,14 @@
 
 #ifndef KALDI_UTIL_EDIT_DISTANCE_H_
 #define KALDI_UTIL_EDIT_DISTANCE_H_
-#include <vector>
-#include <set>
-#include <algorithm>
-#include <limits>
-#include <cassert>
-#include <utility>
-#include "util/edit-distance-inl.h"
 #include "base/kaldi-types.h"
+#include "util/edit-distance-inl.h"
+#include <algorithm>
+#include <cassert>
+#include <limits>
+#include <set>
+#include <utility>
+#include <vector>
 
 namespace kaldi {
 

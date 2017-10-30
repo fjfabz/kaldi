@@ -20,8 +20,8 @@
 #ifndef KALDI_TREE_BUILD_TREE_QUESTIONS_H_
 #define KALDI_TREE_BUILD_TREE_QUESTIONS_H_
 
-#include "util/stl-utils.h"
 #include "tree/context-dep.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

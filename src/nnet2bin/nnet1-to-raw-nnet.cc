@@ -18,14 +18,14 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/transition-model.h"
-#include "nnet/nnet-nnet.h"
-#include "nnet/nnet-affine-transform.h"
 #include "nnet/nnet-activation.h"
+#include "nnet/nnet-affine-transform.h"
+#include "nnet/nnet-nnet.h"
 #include "nnet/nnet-various.h"
-#include "nnet2/nnet-nnet.h"
 #include "nnet2/nnet-component.h"
+#include "nnet2/nnet-nnet.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

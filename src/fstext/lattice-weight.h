@@ -21,8 +21,8 @@
 #ifndef KALDI_FSTEXT_LATTICE_WEIGHT_H_
 #define KALDI_FSTEXT_LATTICE_WEIGHT_H_
 
-#include "fst/fstlib.h"
 #include "base/kaldi-common.h"
+#include "fst/fstlib.h"
 
 namespace fst {
 

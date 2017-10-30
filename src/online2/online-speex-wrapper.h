@@ -28,8 +28,8 @@
   typedef char SPEEXBITS;
 #endif
 
-#include "matrix/kaldi-vector.h"
 #include "itf/options-itf.h"
+#include "matrix/kaldi-vector.h"
 
 namespace kaldi {
 

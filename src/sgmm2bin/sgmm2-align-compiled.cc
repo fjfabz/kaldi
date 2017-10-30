@@ -19,15 +19,15 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "sgmm2/am-sgmm2.h"
-#include "hmm/transition-model.h"
-#include "hmm/hmm-utils.h"
-#include "fstext/fstext-lib.h"
 #include "decoder/decoder-wrappers.h"
 #include "decoder/training-graph-compiler.h"
-#include "sgmm2/decodable-am-sgmm2.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h" // for {Compact}LatticeArc
+#include "sgmm2/am-sgmm2.h"
+#include "sgmm2/decodable-am-sgmm2.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

@@ -19,10 +19,10 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
 #include "hmm/hmm-topology.h"
 #include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 // This function reads a file like:

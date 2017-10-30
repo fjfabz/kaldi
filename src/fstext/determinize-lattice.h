@@ -19,13 +19,13 @@
 
 #ifndef KALDI_FSTEXT_DETERMINIZE_LATTICE_H_
 #define KALDI_FSTEXT_DETERMINIZE_LATTICE_H_
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
+#include "fstext/lattice-weight.h"
 #include <algorithm>
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 #include <map>
 #include <set>
 #include <vector>
-#include "fstext/lattice-weight.h"
 
 namespace fst {
 

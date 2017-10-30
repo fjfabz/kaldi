@@ -24,10 +24,10 @@
 
 #include <vector>
 
-#include "gmm/model-common.h"
-#include "gmm/full-gmm.h"
 #include "gmm/full-gmm-normal.h"
+#include "gmm/full-gmm.h"
 #include "gmm/mle-diag-gmm.h"  // for AugmentGmmFlags()
+#include "gmm/model-common.h"
 
 namespace kaldi {
 

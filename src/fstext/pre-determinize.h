@@ -19,13 +19,13 @@
 
 #ifndef KALDI_FSTEXT_PRE_DETERMINIZE_H_
 #define KALDI_FSTEXT_PRE_DETERMINIZE_H_
+#include "base/kaldi-common.h"
 #include <algorithm>
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 #include <map>
 #include <set>
 #include <vector>
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
-#include "base/kaldi-common.h"
 
 namespace fst {
 

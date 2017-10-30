@@ -20,23 +20,23 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/faster-decoder.h"
 #include "decoder/decodable-matrix.h"
+#include "decoder/faster-decoder.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
 #include "lat/kaldi-lattice.h"
 #include "lat/lattice-functions.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
-#include "nnet/nnet-trnopts.h"
-#include "nnet/nnet-component.h"
-#include "nnet/nnet-activation.h"
-#include "nnet/nnet-nnet.h"
-#include "nnet/nnet-pdf-prior.h"
-#include "nnet/nnet-utils.h"
 #include "base/timer.h"
 #include "cudamatrix/cu-device.h"
+#include "nnet/nnet-activation.h"
+#include "nnet/nnet-component.h"
+#include "nnet/nnet-nnet.h"
+#include "nnet/nnet-pdf-prior.h"
+#include "nnet/nnet-trnopts.h"
+#include "nnet/nnet-utils.h"
 
 
 namespace kaldi {

@@ -24,10 +24,10 @@
 #include <utility>
 #include <vector>
 
-#include "matrix/matrix-common.h"
+#include "matrix/compressed-matrix.h"
 #include "matrix/kaldi-matrix.h"
 #include "matrix/kaldi-vector.h"
-#include "matrix/compressed-matrix.h"
+#include "matrix/matrix-common.h"
 
 namespace kaldi {
 

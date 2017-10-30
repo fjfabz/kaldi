@@ -24,8 +24,8 @@
 
 #include "base/kaldi-common.h"
 #include "gmm/am-diag-gmm.h"
-#include "transform/transform-common.h"
 #include "transform/regression-tree.h"
+#include "transform/transform-common.h"
 #include "util/common-utils.h"
 
 namespace kaldi {

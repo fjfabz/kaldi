@@ -24,8 +24,8 @@
 #ifndef KALDI_GMM_MLE_DIAG_GMM_H_
 #define KALDI_GMM_MLE_DIAG_GMM_H_ 1
 
-#include "gmm/diag-gmm.h"
 #include "gmm/diag-gmm-normal.h"
+#include "gmm/diag-gmm.h"
 #include "gmm/model-common.h"
 #include "itf/options-itf.h"
 

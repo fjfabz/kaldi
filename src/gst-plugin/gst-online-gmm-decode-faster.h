@@ -20,17 +20,17 @@
 #ifndef KALDI_GST_PLUGIN_GST_ONLINE_GMM_DECODE_FASTER_H_
 #define KALDI_GST_PLUGIN_GST_ONLINE_GMM_DECODE_FASTER_H_
 
-#include <vector>
 #include <gst/gst.h>
+#include <vector>
 
 #include "feat/feature-mfcc.h"
+#include "gst-plugin/gst-audio-source.h"
 #include "online/online-audio-source.h"
-#include "online/online-feat-input.h"
 #include "online/online-decodable.h"
 #include "online/online-faster-decoder.h"
+#include "online/online-feat-input.h"
 #include "online/onlinebin-util.h"
 #include "util/simple-options.h"
-#include "gst-plugin/gst-audio-source.h"
 
 namespace kaldi {
 

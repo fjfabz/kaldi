@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "nnet2/nnet-example.h"
-#include "lat/lattice-functions.h"
 #include "hmm/posterior.h"
+#include "lat/lattice-functions.h"
 
 namespace kaldi {
 namespace nnet2 {

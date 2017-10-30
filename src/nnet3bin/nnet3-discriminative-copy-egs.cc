@@ -19,9 +19,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "hmm/transition-model.h"
 #include "nnet3/nnet-discriminative-example.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 // returns an integer randomly drawn with expected value "expected_count"

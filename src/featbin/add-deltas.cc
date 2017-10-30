@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "feat/feature-functions.h"
 #include "matrix/kaldi-matrix.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

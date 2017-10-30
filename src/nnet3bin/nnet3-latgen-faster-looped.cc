@@ -20,14 +20,14 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
+#include "base/timer.h"
 #include "decoder/decoder-wrappers.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
 #include "nnet3/decodable-simple-looped.h"
 #include "nnet3/nnet-utils.h"
-#include "base/timer.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

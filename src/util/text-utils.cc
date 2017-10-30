@@ -18,10 +18,10 @@
 // limitations under the License.
 
 #include "util/text-utils.h"
+#include "base/kaldi-common.h"
+#include <algorithm>
 #include <limits>
 #include <map>
-#include <algorithm>
-#include "base/kaldi-common.h"
 
 namespace kaldi {
 

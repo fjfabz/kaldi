@@ -22,20 +22,20 @@
 #ifndef KALDI_ONLINE2_ONLINE_NNET3_DECODING_H_
 #define KALDI_ONLINE2_ONLINE_NNET3_DECODING_H_
 
+#include <deque>
 #include <string>
 #include <vector>
-#include <deque>
 
-#include "nnet3/decodable-online-looped.h"
-#include "matrix/matrix-lib.h"
-#include "util/common-utils.h"
 #include "base/kaldi-error.h"
+#include "decoder/lattice-faster-online-decoder.h"
+#include "hmm/posterior.h"
+#include "hmm/transition-model.h"
 #include "itf/online-feature-itf.h"
+#include "matrix/matrix-lib.h"
+#include "nnet3/decodable-online-looped.h"
 #include "online2/online-endpoint.h"
 #include "online2/online-nnet2-feature-pipeline.h"
-#include "decoder/lattice-faster-online-decoder.h"
-#include "hmm/transition-model.h"
-#include "hmm/posterior.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 /// @addtogroup  onlinedecoding OnlineDecoding

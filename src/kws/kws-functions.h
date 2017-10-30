@@ -23,8 +23,8 @@
 
 #include <vector>
 
-#include "lat/kaldi-lattice.h"
 #include "kws/kaldi-kws.h"
+#include "lat/kaldi-lattice.h"
 
 namespace kaldi {
 

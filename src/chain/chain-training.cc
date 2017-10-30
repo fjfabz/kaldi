@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "chain/chain-training.h"
+#include "chain/chain-denominator.h"
 #include "chain/chain-kernels-ansi.h"
 #include "chain/chain-numerator.h"
-#include "chain/chain-denominator.h"
 
 namespace kaldi {
 namespace chain {

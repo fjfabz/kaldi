@@ -21,8 +21,8 @@
 #ifndef KALDI_LAT_KALDI_LATTICE_H_
 #define KALDI_LAT_KALDI_LATTICE_H_
 
-#include "fstext/fstext-lib.h"
 #include "base/kaldi-common.h"
+#include "fstext/fstext-lib.h"
 #include "util/common-utils.h"
 
 

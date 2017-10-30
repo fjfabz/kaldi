@@ -20,16 +20,16 @@
 #ifndef KALDI_NNET3_NNET_COMPUTE_H_
 #define KALDI_NNET3_NNET_COMPUTE_H_
 
-#include "nnet3/nnet-common.h"
-#include "nnet3/nnet-nnet.h"
-#include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-analyze.h"
+#include "nnet3/nnet-common.h"
+#include "nnet3/nnet-computation.h"
 #include "nnet3/nnet-example.h"
+#include "nnet3/nnet-nnet.h"
 
 #include <iostream>
+#include <map>
 #include <sstream>
 #include <vector>
-#include <map>
 
 
 namespace kaldi {

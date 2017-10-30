@@ -18,11 +18,11 @@
 // limitations under the License.
 
 
-#include "lat/phone-align-lattice.h"
 #include "lat/word-align-lattice-lexicon.h"
-#include "lat/lattice-functions.h"
-#include "hmm/transition-model.h"
 #include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
+#include "lat/lattice-functions.h"
+#include "lat/phone-align-lattice.h"
 #include "util/stl-utils.h"
 
 namespace kaldi {

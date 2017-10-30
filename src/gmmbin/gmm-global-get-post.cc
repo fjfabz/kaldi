@@ -20,9 +20,9 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/diag-gmm.h"
 #include "hmm/posterior.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

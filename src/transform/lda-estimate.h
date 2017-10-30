@@ -21,8 +21,8 @@
 #define KALDI_TRANSFORM_LDA_ESTIMATE_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

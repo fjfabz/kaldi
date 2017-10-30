@@ -20,11 +20,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "hmm/transition-model.h"
-#include "hmm/hmm-utils.h"
-#include "util/common-utils.h"
 #include "fst/fstlib.h"
 #include "fstext/fstext-lib.h"
+#include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 // Create FST that accepts the phone sequence, with any number
 // of word-start and word-end symbol in between each phone.

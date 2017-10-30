@@ -25,8 +25,8 @@ using std::vector;
 
 #include "base/kaldi-common.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
 #include "hmm/hmm-utils.h"
+#include "hmm/transition-model.h"
 #include "util/common-utils.h"
 
 /** @brief Build pfiles for Neural Network training from alignment.

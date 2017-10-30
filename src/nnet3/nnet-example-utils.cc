@@ -19,11 +19,11 @@
 // limitations under the License.
 
 #include "nnet3/nnet-example-utils.h"
-#include "lat/lattice-functions.h"
 #include "hmm/posterior.h"
+#include "lat/lattice-functions.h"
 #include "util/text-utils.h"
-#include <numeric>
 #include <iomanip>
+#include <numeric>
 
 namespace kaldi {
 namespace nnet3 {

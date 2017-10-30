@@ -21,8 +21,8 @@
 #define KALDI_IVECTOR_LOGISTIC_REGRESSION_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
 #include <numeric>
 
 

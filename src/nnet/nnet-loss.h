@@ -24,11 +24,11 @@
 #include <vector>
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-holder.h"
+#include "cudamatrix/cu-array.h"
 #include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-vector.h"
-#include "cudamatrix/cu-array.h"
 #include "hmm/posterior.h"
+#include "util/kaldi-holder.h"
 
 namespace kaldi {
 namespace nnet1 {

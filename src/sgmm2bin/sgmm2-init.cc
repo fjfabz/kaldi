@@ -18,11 +18,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
-#include "sgmm2/am-sgmm2.h"
 #include "hmm/transition-model.h"
+#include "sgmm2/am-sgmm2.h"
 #include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

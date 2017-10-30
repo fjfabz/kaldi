@@ -18,11 +18,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include "util/common-utils.h"
-#include "nnet/nnet-nnet.h"
-#include "nnet/nnet-component.h"
-#include "nnet/nnet-affine-transform.h"
 #include "nnet/nnet-activation.h"
+#include "nnet/nnet-affine-transform.h"
+#include "nnet/nnet-component.h"
+#include "nnet/nnet-nnet.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

@@ -18,10 +18,10 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "fstext/fstext-lib.h"
 #include "lat/kaldi-lattice.h"
 #include "lat/lattice-functions.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   try {

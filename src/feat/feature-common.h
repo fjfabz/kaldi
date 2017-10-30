@@ -20,9 +20,9 @@
 #ifndef KALDI_FEAT_FEATURE_COMMON_H_
 #define KALDI_FEAT_FEATURE_COMMON_H_
 
+#include "feat/feature-window.h"
 #include <map>
 #include <string>
-#include "feat/feature-window.h"
 
 namespace kaldi {
 /// @addtogroup  feat FeatureExtraction

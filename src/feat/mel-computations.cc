@@ -17,11 +17,11 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
+#include <algorithm>
+#include <float.h>
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <float.h>
-#include <algorithm>
-#include <iostream>
 
 #include "feat/feature-functions.h"
 #include "feat/feature-window.h"

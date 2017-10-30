@@ -22,12 +22,12 @@
 #ifndef KALDI_CUDAMATRIX_CU_MATRIX_LIB_H_
 #define KALDI_CUDAMATRIX_CU_MATRIX_LIB_H_
 
-#include "cudamatrix/cu-vector.h"
-#include "cudamatrix/cu-matrix.h"
-#include "cudamatrix/cu-sp-matrix.h"
-#include "cudamatrix/cu-tp-matrix.h"
-#include "cudamatrix/cu-sparse-matrix.h"
 #include "cudamatrix/cu-block-matrix.h"
+#include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-rand.h"
+#include "cudamatrix/cu-sp-matrix.h"
+#include "cudamatrix/cu-sparse-matrix.h"
+#include "cudamatrix/cu-tp-matrix.h"
+#include "cudamatrix/cu-vector.h"
 
 #endif

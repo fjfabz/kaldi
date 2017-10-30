@@ -19,8 +19,8 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "ivector/plda.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

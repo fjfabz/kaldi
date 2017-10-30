@@ -20,9 +20,9 @@
 #ifndef KALDI_FSTEXT_PUSH_SPECIAL_H_
 #define KALDI_FSTEXT_PUSH_SPECIAL_H_
 
-#include <fst/fstlib.h>
-#include <fst/fst-decl.h>
 #include "util/const-integer-set.h"
+#include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 namespace fst {
 

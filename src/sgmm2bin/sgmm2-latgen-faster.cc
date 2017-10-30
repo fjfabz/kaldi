@@ -23,13 +23,13 @@
 using std::string;
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "sgmm2/am-sgmm2.h"
-#include "hmm/transition-model.h"
-#include "fstext/fstext-lib.h"
-#include "decoder/decoder-wrappers.h"
-#include "sgmm2/decodable-am-sgmm2.h"
 #include "base/timer.h"
+#include "decoder/decoder-wrappers.h"
+#include "fstext/fstext-lib.h"
+#include "hmm/transition-model.h"
+#include "sgmm2/am-sgmm2.h"
+#include "sgmm2/decodable-am-sgmm2.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

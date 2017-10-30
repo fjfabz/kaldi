@@ -22,14 +22,14 @@
 #define KALDI_NNET2_NNET_NNET_H_
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
 #include "matrix/matrix-lib.h"
 #include "nnet2/nnet-component.h"
+#include "util/kaldi-io.h"
 
 #include <iostream>
+#include <map>
 #include <sstream>
 #include <vector>
-#include <map>
 
 
 namespace kaldi {

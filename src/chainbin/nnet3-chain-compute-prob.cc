@@ -18,9 +18,9 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "nnet3/nnet-chain-diagnostics.h"
 #include "nnet3/nnet-utils.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

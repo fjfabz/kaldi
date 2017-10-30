@@ -19,8 +19,8 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/kaldi-matrix.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
   void ShiftFeatureMatrix(const Matrix<BaseFloat> &src, int32 shift,

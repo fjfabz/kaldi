@@ -20,11 +20,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "gmm/am-diag-gmm.h"
-#include "hmm/transition-model.h"
 #include "hmm/hmm-utils.h"
 #include "hmm/posterior.h"
+#include "hmm/transition-model.h"
+#include "util/common-utils.h"
 
 int main(int argc, char *argv[]) {
   using namespace kaldi;

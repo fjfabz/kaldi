@@ -26,10 +26,10 @@
 #include <algorithm>
 
 #if HAVE_CUDA == 1
-#include <cuda_runtime_api.h>
 #include "cudamatrix/cu-common.h"
 #include "cudamatrix/cu-device.h"
 #include "cudamatrix/cu-kernels.h"
+#include <cuda_runtime_api.h>
 #endif
 
 #include "base/timer.h"

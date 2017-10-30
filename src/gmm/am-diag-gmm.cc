@@ -25,9 +25,9 @@
 using std::vector;
 
 #include "gmm/am-diag-gmm.h"
-#include "util/stl-utils.h"
-#include "tree/clusterable-classes.h"
 #include "tree/cluster-utils.h"
+#include "tree/clusterable-classes.h"
+#include "util/stl-utils.h"
 
 namespace kaldi {
 

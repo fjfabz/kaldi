@@ -27,10 +27,10 @@
 #include <string>
 #include <vector>
 
-#include "gmm/diag-gmm.h"
 #include "gmm/diag-gmm-normal.h"
-#include "gmm/full-gmm.h"
+#include "gmm/diag-gmm.h"
 #include "gmm/full-gmm-normal.h"
+#include "gmm/full-gmm.h"
 #include "tree/clusterable-classes.h"
 
 namespace kaldi {

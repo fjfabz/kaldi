@@ -20,10 +20,10 @@
 #ifndef KALDI_NNET3_NNET_ATTENTION_COMPONENT_H_
 #define KALDI_NNET3_NNET_ATTENTION_COMPONENT_H_
 
+#include "nnet3/attention.h"
+#include "nnet3/natural-gradient-online.h"
 #include "nnet3/nnet-common.h"
 #include "nnet3/nnet-component-itf.h"
-#include "nnet3/natural-gradient-online.h"
-#include "nnet3/attention.h"
 #include <iostream>
 
 namespace kaldi {

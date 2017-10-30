@@ -19,11 +19,11 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/kaldi-io.h"
-#include "util/parse-options.h"
 #include "fst/fstlib.h"
 #include "fstext/fstext-utils.h"
 #include "fstext/kaldi-fst-io.h"
+#include "util/kaldi-io.h"
+#include "util/parse-options.h"
 
 // e.g. of test:
 // echo " 0 0" | fstcompile | fstisstochastic

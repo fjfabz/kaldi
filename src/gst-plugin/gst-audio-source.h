@@ -20,9 +20,9 @@
 #ifndef KALDI_GST_PLUGIN_GST_AUDIO_SOURCE_H_
 #define KALDI_GST_PLUGIN_GST_AUDIO_SOURCE_H_
 
-#include <online/online-audio-source.h>
-#include <matrix/kaldi-vector.h>
 #include <gst/gst.h>
+#include <matrix/kaldi-vector.h>
+#include <online/online-audio-source.h>
 
 namespace kaldi {
 

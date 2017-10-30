@@ -22,9 +22,9 @@
 #define KALDI_NNET2_GET_FEATURE_TRANSFORM_H_
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "matrix/matrix-lib.h"
 #include "transform/lda-estimate.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

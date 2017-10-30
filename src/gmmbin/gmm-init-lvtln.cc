@@ -20,8 +20,8 @@
 
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
 #include "transform/lvtln.h"
+#include "util/common-utils.h"
 
 
 int main(int argc, char *argv[]) {

@@ -19,16 +19,16 @@
 // limitations under the License.
 
 
-#include "base/timer.h"
 #include "base/kaldi-common.h"
+#include "base/timer.h"
 #include "decoder/decoder-wrappers.h"
 #include "fstext/fstext-lib.h"
 #include "hmm/transition-model.h"
 #include "nnet3/nnet-am-decodable-simple.h"
 #include "nnet3/nnet-utils.h"
-#include "util/kaldi-thread.h"
 #include "tree/context-dep.h"
 #include "util/common-utils.h"
+#include "util/kaldi-thread.h"
 
 
 

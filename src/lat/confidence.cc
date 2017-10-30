@@ -18,8 +18,8 @@
 // limitations under the License.
 
 #include "lat/confidence.h"
-#include "lat/lattice-functions.h"
 #include "lat/determinize-lattice-pruned.h"
+#include "lat/lattice-functions.h"
 
 namespace kaldi {
 

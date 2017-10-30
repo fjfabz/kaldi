@@ -22,11 +22,11 @@
 #ifndef KALDI_NNET3_NNET_COMPONENT_ITF_H_
 #define KALDI_NNET3_NNET_COMPONENT_ITF_H_
 
-#include <iostream>
-#include <mutex>
+#include "base/kaldi-error.h"
 #include "nnet3/nnet-common.h"
 #include "nnet3/nnet-parse.h"
-#include "base/kaldi-error.h"
+#include <iostream>
+#include <mutex>
 
 namespace kaldi {
 namespace nnet3 {

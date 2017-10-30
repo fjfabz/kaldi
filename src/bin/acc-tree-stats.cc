@@ -19,11 +19,11 @@
 // limitations under the License.
 
 #include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "tree/context-dep.h"
-#include "tree/build-tree-utils.h"
 #include "hmm/transition-model.h"
 #include "hmm/tree-accu.h"
+#include "tree/build-tree-utils.h"
+#include "tree/context-dep.h"
+#include "util/common-utils.h"
 
 /** @brief Accumulate tree statistics for decision tree training. The
 program reads in a feature archive, and the corresponding alignments,

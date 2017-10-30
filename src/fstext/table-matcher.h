@@ -19,8 +19,8 @@
 
 #ifndef KALDI_FSTEXT_TABLE_MATCHER_H_
 #define KALDI_FSTEXT_TABLE_MATCHER_H_
-#include <fst/fstlib.h>
 #include <fst/fst-decl.h>
+#include <fst/fstlib.h>
 
 
 

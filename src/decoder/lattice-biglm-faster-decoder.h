@@ -22,13 +22,13 @@
 #define KALDI_DECODER_LATTICE_BIGLM_FASTER_DECODER_H_
 
 
-#include "util/stl-utils.h"
-#include "util/hash-list.h"
-#include "fst/fstlib.h"
-#include "itf/decodable-itf.h"
-#include "fstext/fstext-lib.h"
-#include "lat/kaldi-lattice.h"
 #include "decoder/lattice-faster-decoder.h" // for options.
+#include "fst/fstlib.h"
+#include "fstext/fstext-lib.h"
+#include "itf/decodable-itf.h"
+#include "lat/kaldi-lattice.h"
+#include "util/hash-list.h"
+#include "util/stl-utils.h"
 
 
 namespace kaldi {

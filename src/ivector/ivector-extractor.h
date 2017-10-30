@@ -22,16 +22,16 @@
 #ifndef KALDI_IVECTOR_IVECTOR_EXTRACTOR_H_
 #define KALDI_IVECTOR_IVECTOR_EXTRACTOR_H_
 
-#include <vector>
-#include <mutex>
 #include "base/kaldi-common.h"
-#include "matrix/matrix-lib.h"
-#include "gmm/model-common.h"
 #include "gmm/diag-gmm.h"
 #include "gmm/full-gmm.h"
-#include "itf/options-itf.h"
-#include "util/common-utils.h"
+#include "gmm/model-common.h"
 #include "hmm/posterior.h"
+#include "itf/options-itf.h"
+#include "matrix/matrix-lib.h"
+#include "util/common-utils.h"
+#include <mutex>
+#include <vector>
 
 namespace kaldi {
 

@@ -21,14 +21,14 @@
 #ifndef KALDI_NNET_NNET_UTILS_H_
 #define KALDI_NNET_NNET_UTILS_H_
 
+#include <algorithm>
+#include <iterator>
 #include <string>
 #include <vector>
-#include <iterator>
-#include <algorithm>
 
 #include "base/kaldi-common.h"
-#include "cudamatrix/cu-matrix.h"
 #include "cudamatrix/cu-array.h"
+#include "cudamatrix/cu-matrix.h"
 #include "hmm/posterior.h"
 #include "hmm/transition-model.h"
 

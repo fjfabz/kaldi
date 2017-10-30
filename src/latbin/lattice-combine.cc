@@ -37,10 +37,10 @@ using std::string;
 #include <vector>
 using std::vector;
 
-#include "util/common-utils.h"
-#include "lat/lattice-functions.h"
 #include "lat/kaldi-lattice.h"
+#include "lat/lattice-functions.h"
 #include "lat/sausages.h"
+#include "util/common-utils.h"
 
 namespace kaldi {
 

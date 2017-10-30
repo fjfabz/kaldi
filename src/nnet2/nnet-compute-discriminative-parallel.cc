@@ -17,13 +17,13 @@
 // See the Apache 2 License for the specific language governing permissions and
 // limitations under the License.
 
-#include <deque>
-#include <mutex>
 #include "nnet2/nnet-compute-discriminative-parallel.h"
 #include "hmm/posterior.h"
 #include "lat/lattice-functions.h"
 #include "util/kaldi-semaphore.h"
 #include "util/kaldi-thread.h"
+#include <deque>
+#include <mutex>
 
 namespace kaldi {
 namespace nnet2 {

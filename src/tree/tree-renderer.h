@@ -21,10 +21,10 @@
 #define KALDI_TREE_TREE_RENDERER_H_
 
 #include "base/kaldi-common.h"
+#include "fst/fstlib.h"
+#include "hmm/transition-model.h"
 #include "tree/event-map.h"
 #include "util/common-utils.h"
-#include "hmm/transition-model.h"
-#include "fst/fstlib.h"
 
 namespace kaldi {
 

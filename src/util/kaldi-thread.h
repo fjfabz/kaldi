@@ -22,9 +22,9 @@
 #ifndef KALDI_THREAD_KALDI_THREAD_H_
 #define KALDI_THREAD_KALDI_THREAD_H_ 1
 
-#include <thread>
 #include "itf/options-itf.h"
 #include "util/kaldi-semaphore.h"
+#include <thread>
 
 // This header provides convenient mechanisms for parallelization.
 //
